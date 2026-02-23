@@ -22,7 +22,13 @@ const datosTemario = [
             { t: "3.3. La tutoría" }
         ]},
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Alba Pastor, C. (2016). Diseño universal para el aprendizaje: educación para todos y prácticas de enseñanza inclusivas. Madrid: Morata." },
+            { t: "Anderson, L. y Krathwohl, D. (eds.) (2001). A Taxonomy for Learning, Teaching and Assessing. A Revision of Bloom’s Taxonomy of Educational Objectives. Nueva York: Longman." },
+            { t: "Bernal, J. L., Cano, J. y Lorenzo, J. (2014). Organización de los centros educativos. LOMCE y políticas neoliberales. Zaragoza: Mira Editores." },
+            { t: "Booth, T. y Ainscow, M. (2015). Guía para la educación inclusiva. Desarrollando el aprendizaje y la participación en los centros escolares. Madrid: Fuhem." },
+            { t: "MEC (1992). Orientación y tutoría, Educación Infantil y Primaria. Madrid: Colección Cajas Rojas." }
+        ]}
     ]},
     { id: 3, cat: 'tema-naranja', nombre: 'TEMA 3. LA TUTORÍA', indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -57,7 +63,12 @@ const datosTemario = [
         ]},
         { t: "6. Propuestas de acción tutorial", c: "sec-6" },
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Álvarez, M. y Bisquerra, R. (2018). Orientación educativa. Modelos, áreas, estrategias y recursos. Madrid: Wolters Kluwer." },
+            { t: "Bisquerra, R. (2012). Orientación, tutoría y educación emocional. Madrid: Síntesis." },
+            { t: "Elizondo, C. (2020). Hacia una escuela inclusiva: el diseño universal para el aprendizaje. Barcelona: Octaedro." },
+            { t: "Mora, F. (2013). Neuroeducación: solo se puede aprender aquello que se ama. Madrid: Alianza Editorial." }
+        ]}
     ]},
     { id: 4, cat: 'tema-naranja', nombre: 'TEMA 4. LA ATENCIÓN A LA DIVERSIDAD', indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -86,7 +97,12 @@ const datosTemario = [
         { t: "4. Alumnado con necesidad específica de apoyo educativo", c: "sec-4" },
         { t: "5. Medidas educativas específicas y extraordinarias", c: "sec-5" },
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Alba Pastor, C. (2016). Diseño Universal para el Aprendizaje: Educación para todos y prácticas de enseñanza inclusivas. Madrid: Morata." },
+            { t: "Booth, T. y Ainscow, M. (2011). Guía para la educación inclusiva (Index for Inclusion). Madrid: Fuhem." },
+            { t: "Includ-ED Consortium (coord.). (2011). Actuaciones de éxito en las escuelas europeas. Madrid: Ministerio de Educación." },
+            { t: "Palacios, J., Marchesi, A. y Coll, C. (2014). Desarrollo psicológico y educación I. Psicología evolutiva. Madrid: Alianza Editorial." }
+        ]}
     ]},
     { id: 5, cat: 'tema-naranja', nombre: 'TEMA 5. LA EVALUACIÓN', indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -108,7 +124,12 @@ const datosTemario = [
             { t: "3.2. El refuerzo educativo" }
         ]},
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Alba Pastor, C. (Coord.) (2016). Diseño Universal para el Aprendizaje: Educación para todos y prácticas de enseñanza inclusivas. Madrid: Morata." },
+            { t: "Elizondo, C. (2016). Guía para elaborar un Proyecto Educativo de Centro desde un enfoque inclusivo. (Recurso en línea)." },
+            { t: "Guillén, J. (2017). Neuroeducación en el aula: De la teoría a la práctica. Amazon CreateSpace." },
+            { t: "Polo, I. (2014). Evaluación, promoción y titulación. Madrid: Wolters Kluwer." }
+        ]}
     ]},
     { id: 6, cat: 'tema-amarillo', nombre: 'TEMA 6. LAS TIC', indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -135,7 +156,13 @@ const datosTemario = [
             { t: "2.5. Las TIC en la atención a la diversidad" }
         ]},
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Alba Pastor, C. (2016). Diseño Universal para el Aprendizaje: Educación para todos y prácticas de enseñanza inclusivas. Madrid: Morata." },
+            { t: "Barroso, J. y Cabero, J. (2015). Nuevos escenarios digitales. Madrid: Pirámide." },
+            { t: "Churches, A. (2009). Taxonomía de Bloom para la era digital. Eduteka." },
+            { t: "Delors, J. (Coord.) (1996). La educación encierra un tesoro. Madrid: Santillana/UNESCO." },
+            { t: "Mishra, P. & Koehler, M. J. (2006). Technological Pedagogical Content Knowledge: A framework for teacher knowledge. Teachers College Record." }
+        ]}
     ]},
     { id: 7, cat: 'tema-verde', nombre: 'TEMA 7. CONOCIMIENTO DEL MEDIO', indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -154,7 +181,12 @@ const datosTemario = [
         ]},
         { t: "4. Relación con otras áreas del currículo", c: "sec-4" },
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Elizondo, C. (2020). Hacia una educación inclusiva. El Diseño Universal para el Aprendizaje. Barcelona: Octaedro." },
+            { t: "Gil-Pérez, D. y Vilches, A. (2005). Educación para la sostenibilidad. Barcelona: Octaedro." },
+            { t: "Pagès, J. y Santisteban, A. (2011). Didáctica del Conocimiento del Medio Social y Cultural en la Educación Primaria. Madrid: Síntesis." },
+            { t: "Zabala, A. (1999). Enfoque globalizador y pensamiento complejo: una respuesta para la comprensión e intervención en la realidad. Barcelona: Graó." }
+        ]}
     ]},
     { id: 8, cat: 'tema-verde', nombre: 'TEMA 8. EL TIEMPO HISTÓRICO', indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -190,7 +222,11 @@ const datosTemario = [
             { t: "5.2. Principios didácticos" }
         ]},
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Cooper, H. (2002). Didáctica de la historia en la educación infantil y primaria. Madrid: Morata." },
+            { t: "Pagès, J. y Santisteban, A. (2011). Didáctica del Conocimiento del Medio Social y Cultural en la Educación Primaria. Madrid: Síntesis." },
+            { t: "Trepat, C. y Comes, P. (1998). El tiempo y el espacio en la didáctica de las Ciencias Sociales. Barcelona: Graó." }
+        ]}
     ]},
     { id: 9, cat: 'tema-verde', nombre: 'TEMA 9. EL ENTORNO Y SU CONSERVACIÓN', indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -207,7 +243,11 @@ const datosTemario = [
         ]},
         { t: "4. Intervención educativa", c: "sec-4" },
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Escobar, B. (2013). El trabajo con la educación ambiental en la escuela primaria." },
+            { t: "Margalef, R. (1998). Ecología. Barcelona: Editorial Planeta." },
+            { t: "Pujol, R.M. (2003). Didáctica de las ciencias en la educación primaria. Madrid: Síntesis." }
+        ]}
     ]},
     { id: 10, cat: 'tema-verde', nombre: 'TEMA 10. FENÓMENOS FÍSICOS Y CAMBIOS QUÍMICOS', indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -235,7 +275,12 @@ const datosTemario = [
             { t: "4.4. Las experiencias para el estudio de las propiedades, características y comportamiento de la materia y la energía" }
         ]},
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Charpak, G. (2005). Manos a la obra. Las ciencias en la escuela primaria. Taller del Ciudadano." },
+            { t: "Prieto, T., Blanco, A. y González, F. (2000). La materia y los materiales. Madrid: Síntesis." },
+            { t: "Sutton, C. (1992). Ideas sobre las ideas de los alumnos. Barcelona: Paidós." },
+            { t: "Vos, P. y Verdork, A. (1996). The Particulate Nature of Matter (en The atomic model as a tool for learning)." }
+        ]}
     ]},
     { id: 14, cat: 'tema-rojo', nombre: 'TEMA 14. LENGUA Y LITERATURA', indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -256,7 +301,11 @@ const datosTemario = [
         ]},
         { t: "4. Desarrollo de la competencia comunicativa en otras áreas del currículo", c: "sec-4" },
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Cassany, D. (2006). Tras las líneas. Sobre la lectura contemporánea. Barcelona: Anagrama." },
+            { t: "Lomas, C. (1999). Cómo enseñar a hacer cosas con las palabras. Barcelona: Paidós." },
+            { t: "Mendoza Fillola, A. (2003). Didáctica de la Lengua y la Literatura. Madrid: Pearson Educación." }
+        ]}
     ]},
     { id: 15, cat: 'tema-rojo', nombre: 'TEMA 15. LA INTERVENCIÓN EDUCATIVA SOBRE EL LENGUAJE', indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -275,7 +324,11 @@ const datosTemario = [
             { t: "2.3. Factores intervinientes y beneficios del dominio lectoescritor" }
         ]},
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Cassany, D. (1999). Construir la escritura. Barcelona: Paidós." },
+            { t: "Cuetos, F. (2008). Psicología de la lectura. Madrid: Wolters Kluwer." },
+            { t: "Ferreiro, E. y Teberosky, A. (1979). Los sistemas de escritura en el desarrollo del niño. Madrid: Siglo XXI." }
+        ]}
     ]},
     { id: 16, cat: 'tema-rojo', nombre: 'TEMA 16. LA EDUCACIÓN LITERARIA', indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -296,7 +349,11 @@ const datosTemario = [
             { t: "4.3. La inclusión de las TIC" }
         ]},
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Chambers, A. (2007). Dime: Los niños, la lectura y la conversación. México: Fondo de Cultura Económica." },
+            { t: "Colomer, T. (2005). Andar entre libros: la lectura literaria en la escuela. México: Fondo de Cultura Económica." },
+            { t: "Mendoza Fillola, A. (2004). La educación literaria: bases para la formación de la competencia lectoliteraria. Málaga: Aljibe." }
+        ]}
     ]},
     { id: 17, cat: 'tema-rojo', nombre: 'TEMA 17. ADQUISICIÓN Y DESARROLLO DEL LENGUAJE', indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -313,7 +370,11 @@ const datosTemario = [
             { t: "2.3. Tipos de actividades para trabajar la expresión y comprensión oral" }
         ]},
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Cassany, D., Luna, M. y Sanz, G. (2008). Enseñar lengua. Barcelona: Graó." },
+            { t: "Juárez, A. y Monfort, M. (2001). El niño que habla: El lenguaje oral en el preescolar. Madrid: CEPE." },
+            { t: "Mora, F. (2013). Neuroeducación: solo se puede aprender aquello que se ama. Madrid: Alianza Editorial." }
+        ]}
     ]},
     { id: 18, cat: 'tema-rojo', nombre: 'TEMA 18. EL PROCESO LECTOR', indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -333,7 +394,11 @@ const datosTemario = [
             { t: "3.3. El papel de la Familia: El primer modelo lector" }
         ]},
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Cassany, D. (2006). Tras las líneas: sobre la lectura contemporánea. Barcelona: Anagrama." },
+            { t: "Dehaene, S. (2014). El cerebro lector: últimas noticias de las neurociencias sobre la lectura, la enseñanza, el aprendizaje y la dislexia. Madrid: Siglo XXI." },
+            { t: "Solé, I. (1998). Estrategias de lectura. Barcelona: Graó." }
+        ]}
     ]},
     { id: 19, cat: 'tema-rojo', nombre: 'TEMA 19. LA EXPRESIÓN ESCRITA', indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -352,7 +417,11 @@ const datosTemario = [
         ]},
         { t: "4. Estrategias de intervención educativa", c: "sec-4" },
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Cassany, D. (1995). La cocina de la escritura. Barcelona: Anagrama." },
+            { t: "Flower, L. & Hayes, J.R. (1981). A Cognitive Process Theory of Writing. College Composition and Communication." },
+            { t: "Rodari, G. (1973). Gramática de la fantasía." }
+        ]}
     ]},
     { id: 20, cat: 'tema-azul', nombre: 'TEMA 20. EL ÁREA DE MATEMÁTICAS', indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -370,7 +439,12 @@ const datosTemario = [
         { t: "3. Objetivos, contenidos y criterios de evaluación: aspectos más relevantes", c: "sec-3" },
         { t: "4. Relación con otras áreas del currículo", c: "sec-4" },
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Chamorro, M. C. (2003). Didáctica de las Matemáticas para Primaria. Madrid: Pearson Educación." },
+            { t: "Godino, J. D. y Batanero, C. (2004). Didáctica de las matemáticas para maestros. Granada: Universidad de Granada." },
+            { t: "Piaget, J. (1975). La génesis del número en el niño. Guadalupe." },
+            { t: "NCTM (National Council of Teachers of Mathematics). (2000). Principios y estándares para la educación matemática. Sevilla: SAEM Thales." }
+        ]}
     ]},
     { id: 21, cat: 'tema-azul', nombre: 'TEMA 21. RESOLUCIÓN DE PROBLEMAS', indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -395,7 +469,12 @@ const datosTemario = [
             { t: "4.3. Reflexiones didácticas sobre la resolución de problemas" }
         ]},
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Blanco Nieto, L. J. (1993). Una clasificación de problemas matemáticos. Épsilon: Revista de la Sociedad Andaluza de Educación Matemática 'Thales'." },
+            { t: "Fernández Bravo, J. A. (2014). La resolución de problemas matemáticos: creatividad y razonamiento en la mente de los niños. Madrid: Grupo Mayéutica." },
+            { t: "NCTM (2000). Principios y estándares para la educación matemática. Sevilla: SAEM Thales." },
+            { t: "Pólya, G. (1992 [orig. 1945]). Cómo plantear y resolver problemas. México: Trillas." }
+        ]}
     ]},
     { id: 22, cat: 'tema-azul', nombre: 'TEMA 22. LOS NÚMEROS Y EL CÁLCULO NUMÉRICO', indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -427,7 +506,13 @@ const datosTemario = [
             ]}
         ]},
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Alsina, Á. (2004). Desarrollo de competencias matemáticas con recursos lúdico-manipulativos. Madrid: Narcea." },
+            { t: "Bruner, J. S. (1966). Hacia una teoría de la instrucción. México: UTEHA." },
+            { t: "Giménez, J. y Girondo, L. (1993). Cálculo en la escuela. Barcelona: Graó." },
+            { t: "Ortiz, M. y Ortega, T. (2009). Cálculo mental. Valladolid: Tecnigraf." },
+            { t: "Piaget, J. (1975). La génesis del número en el niño. Buenos Aires: Guadalupe." }
+        ]}
     ]},
     { id: 23, cat: 'tema-azul', nombre: 'TEMA 23. LAS MAGNITUDES Y SU MEDIDA', indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -450,7 +535,12 @@ const datosTemario = [
             { t: "4.3. Atención al alumnado con necesidad específica de apoyo educativo" }
         ]},
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Alsina, Á. (2019). Itinerarios didácticos para la enseñanza de las matemáticas (6-12 años). Barcelona: Graó." },
+            { t: "Chamorro, M. C. (Coord.) (2003). Didáctica de las Matemáticas para Primaria. Madrid: Pearson Educación." },
+            { t: "Godino, J. D., Batanero, C. y Roa, R. (2004). Medida de magnitudes y su didáctica para maestros. Granada: Proyecto Edumat-Maestros." },
+            { t: "Segovia, I. y Rico, L. (Coords.) (2011). Matemáticas para maestros de Educación Primaria. Madrid: Ediciones Pirámide." }
+        ]}
     ]},
     { id: 24, cat: 'tema-azul', nombre: 'TEMA 24. LA PERCEPCIÓN ESPACIAL', indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -476,7 +566,13 @@ const datosTemario = [
             { t: "3.2. Dificultades" }
         ]},
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Castañer, M. y Camerino, O. (2004). Didáctica de la Educación Física: una perspectiva crítica y transversal. Madrid: Biblioteca Nueva." },
+            { t: "Corberán, R. M. (1989). Didáctica de la geometría: el modelo Van Hiele. Valencia: Universidad de Valencia." },
+            { t: "Godino, J. D. y Ruiz, F. (2002). Geometría y su didáctica para maestros. Granada: Universidad de Granada." },
+            { t: "Piaget, J. e Inhelder, B. (1948). La representación del espacio en el niño. Madrid: Morata." },
+            { t: "Roldán, T. L. y Cabrera, C. R. (2008). Concepción didáctica para la enseñanza y el aprendizaje de la geometría con un enfoque dinámico. Editorial Universitaria." }
+        ]}
     ]},
     { id: 25, cat: 'tema-azul', nombre: 'TEMA 25. RECOGIDA, ORGANIZACIÓN Y REPRESENTACIÓN DE LA INFORMACIÓN', indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -505,7 +601,12 @@ const datosTemario = [
         ]},
         { t: "5. Utilización de las tecnologías de la información y la comunicación para el tratamiento de datos", c: "sec-5" },
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio" }
+        { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Godino, J. D. y Batanero, C. (2004). Estocástica (en Didáctica de las matemáticas para maestros). Granada: Universidad de Granada." },
+            { t: "Gorgas, J., Cardiel, N. y Zamorano, J. (2011). Estadística básica para estudiantes de ciencias. Madrid: Universidad Complutense." },
+            { t: "Mendenhall, W., Beaver, R. y Beaver, B. (2006). Introducción a la probabilidad y estadística. Cengage Learning." },
+            { t: "Watkins, J. C. (2016). An Introduction to the Science of Statistics. Arizona: University of Arizona." }
+        ]}
     ]}
 ];
 
