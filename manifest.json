@@ -1,0 +1,9 @@
+{
+  "short_name": "Opos",
+  "name": "Temario Oposiciones Primaria",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#fb5607",
+  "orientation": "portrait"
+}

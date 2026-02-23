@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="manifest" href="manifest.json">
+
+    <title>Oposiciones Primaria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Temario Oposiciones</h1>
+    </header>
+
+    <main class="container">
+        <div id="menu-principal" class="grid-temas"></div>
+
+        <div id="vista-tema" class="hidden">
+            <div id="indice-contenido"></div>
+            <button id="btn-volver" onclick="irAlMenu()">← Volver al Menú Principal</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
