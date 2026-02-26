@@ -53,9 +53,16 @@ const datosTemario = [
         ]},
         { t: "3. Colaboración con las familias", c: "sec-3", sub: [
             { t: "3.1. Participación de las familias en el marco del PEC y del PAT" },
-            { t: "3.2. Funciones del tutor en relación con las familias" }
+            { t: "3.2. Funciones del tutor en relación con las familias", sub: [
+                { t: "3.2.1. Comunicación e información" },
+                { t: "3.2.2. Cooperación educativa" }
+            ]}
         ]},
-        { t: "4. Funciones del tutor en relación con el equipo docente y otros profesionales", c: "sec-4" },
+        { t: "4. Funciones del tutor en relación con el equipo docente y otros profesionales", c: "sec-4", sub: [
+            { t: "4.1. Coordinación horizontal (El día a día del equipo)" },
+            { t: "4.2. Planificación estratégica (Ciclo y CCP)" },
+            { t: "4.3. Colaboración específica (Orientación y programas)" }
+        ]},
         { t: "5. El plan de acción tutorial", c: "sec-5", sub: [
             { t: "5.1. El PAT en el marco del PEC" },
             { t: "5.2. Elaboración y concreción" },
@@ -254,11 +261,7 @@ const datosTemario = [
         { t: "1. Las ciencias de la naturaleza desde un enfoque competencial", c: "sec-1" },
         { t: "2. El aprendizaje de los fenómenos físicos y los cambios químicos", c: "sec-2", sub: [
             { t: "2.1. Niveles para el aprendizaje de la ciencia en la escuela" },
-            { t: "2.2. Evolución durante la Educación Primaria", sub: [
-                { t: "2.2.1. Primeros cursos de Educación Primaria" },
-                { t: "2.2.2. Cursos intermedios de Educación Primaria" },
-                { t: "2.2.3. Últimos cursos de Educación Primaria" }
-            ]}
+            { t: "2.2. Evolución durante la Educación Primaria" }
         ]},
         { t: "3. Estudio de propiedades, características y comportamiento de la materia y la energía", c: "sec-3", sub: [
             { t: "3.1. Estudio de propiedades, características y comportamiento de la materia", sub: [
@@ -310,7 +313,7 @@ const datosTemario = [
     { id: 15, cat: 'tema-rojo', nombre: 'TEMA 15. LA INTERVENCIÓN EDUCATIVA SOBRE EL LENGUAJE', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. La intervención educativa en la reflexión sistemática sobre el lenguaje en la Educación Primaria en relación con las condiciones de uso: el contexto comunicativo, los ámbitos de uso y el texto", c: "sec-1", sub: [
-            { t: "1.1. La intervención educativa" },
+            { t: "1.1. La intervención educativa: Del uso a la reflexión" },
             { t: "1.2. El contexto comunicativo" },
             { t: "1.3. Los ámbitos de uso del lenguaje" },
             { t: "1.4. El texto", sub: [
@@ -484,10 +487,8 @@ const datosTemario = [
             { t: "1.3. El aprendizaje del número y el cálculo numérico" }
         ]},
         { t: "2. El número y los sistemas de numeración", c: "sec-2", sub: [
-            { t: "2.1. Números naturales" },
-            { t: "2.2. Números enteros" },
-            { t: "2.3. Números reales" },
-            { t: "2.4. Números romanos" }
+            { t: "2.1. Concepto y Tipología de Sistemas" },
+            { t: "2.2. Clasificación de los números en Educación Primaria" }
         ]},
         { t: "3. Relación entre los números. Las operaciones de cálculo", c: "sec-3", sub: [
             { t: "3.1. Adición y sustracción" },
@@ -518,17 +519,19 @@ const datosTemario = [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. Las magnitudes y su medida", c: "sec-1", sub: [
             { t: "1.1. Conceptos básicos: magnitud, cantidad y medir" },
-            { t: "1.2. La práctica de la medición" }
+            { t: "1.2. La práctica de la medición" },
+            { t: "1.3. Evolución histórica: De lo antropométrico a lo universal" }
         ]},
         { t: "2. Unidades e instrumentos de medida", c: "sec-2", sub: [
             { t: "2.1. Sistema métrico decimal" },
-            { t: "2.2. Sistema métrico no decimal. Medidas sexagesimales", sub: [
-                { t: "2.2.1. Medidas de tiempo" },
-                { t: "2.2.2. Medida de la amplitud de los ángulos" }
-            ]},
-            { t: "2.3. Instrumentos de medida" }
+            { t: "2.2. El Sistema Monetario (Contexto Transversal)" },
+            { t: "2.3. Sistemas no decimales: El sexagesimal" },
+            { t: "2.4. Instrumentos de medida" }
         ]},
-        { t: "3. Estimación y aproximación en las mediciones", c: "sec-3" },
+        { t: "3. Estimación y aproximación en las mediciones", c: "sec-3", sub: [
+            { t: "3.1. Concepto y valor didáctico" },
+            { t: "3.2. Estrategias de estimación" }
+        ]},
         { t: "4. Recursos didácticos e intervención educativa", c: "sec-4", sub: [
             { t: "4.1. Metodología específica y principios" },
             { t: "4.2. Recursos didácticos" },
@@ -562,8 +565,9 @@ const datosTemario = [
             { t: "2.4. Representación geométrica y coordenadas" }
         ]},
         { t: "3. Intervención educativa", c: "sec-3", sub: [
-            { t: "3.1. Recursos" },
-            { t: "3.2. Dificultades" }
+            { t: "3.1. Metodología y principios pedagógicos" },
+            { t: "3.2. Recursos y materiales" },
+            { t: "3.3. Atención a la diversidad (DUA y NEAE)" }
         ]},
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [

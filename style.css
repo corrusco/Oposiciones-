@@ -1,4 +1,4 @@
-/* VARIABLES DE COLOR */
+/* PALETA DE COLORES Y VARIABLES */
 :root {
     --naranja-f: #ffe5d9; --naranja-m: #fb5607;
     --amarillo-f: #fdffb6; --amarillo-m: #f9c74f;
@@ -11,14 +11,9 @@
     --morado-f: #ede7f6; --morado-m: #512da8;
 }
 
-/* RESET GENERAL */
-* {
-    box-sizing: border-box;
-    -webkit-tap-highlight-color: transparent;
-}
-
+/* CONFIGURACIÓN BASE PARA MÓVIL */
 body {
-    font-family: sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background-color: #ffffff;
     margin: 0;
     padding: 15px;
@@ -26,17 +21,25 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    -webkit-tap-highlight-color: transparent;
 }
 
 header {
     width: 100%;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 100;
+    padding: 10px 0;
     margin-bottom: 20px;
-    text-align: center;
 }
 
 h1 { 
     font-size: 1.2rem; 
+    text-align: center; 
     color: #333; 
+    margin: 0;
+    font-weight: 800;
     text-transform: uppercase;
 }
 
@@ -45,49 +48,56 @@ h1 {
     max-width: 600px; 
 }
 
-/* ELIMINAR CUALQUIER RESTRICCIÓN DE ALTURA */
-.grid-temas, #indice-contenido { 
+.grid-temas { 
     display: flex; 
     flex-direction: column; 
-    gap: 10px;
+    gap: 12px; 
 }
 
-/* BOTÓN: SOLUCIÓN DEFINITIVA PARA TEXTO COMPLETO */
+/* ESTILO DE LOS BOTONES: CORRECCIÓN DEFINITIVA DE TEXTO CORTADO */
 .btn {
-    display: block !important;
-    width: 100% !important;
+    width: 100%;
+    display: block;
+    box-sizing: border-box; /* Asegura que el padding no rompa el ancho */
     
-    /* Forzar que la altura dependa del texto */
-    height: auto !important;
-    min-height: 60px !important;
+    /* Altura y Espaciado */
+    height: auto !important;       /* Fuerza altura automática */
+    min-height: 60px;              /* Un poco más de aire para el pulgar */
+    padding: 16px 20px !important; /* Más margen interno lateral */
+    margin-bottom: 8px;
     
-    padding: 18px !important;
-    margin-bottom: 5px;
+    /* Bordes y Forma */
     border: 2px solid;
-    border-radius: 12px;
+    border-radius: 14px;
     cursor: pointer;
     
-    /* ELIMINAR PUNTOS SUSPENSIVOS Y FORZAR SALTO */
-    white-space: normal !important;      /* Permite múltiples líneas */
-    text-overflow: clip !important;      /* No corta el texto */
-    overflow: visible !important;        /* Muestra todo el contenido */
-    word-wrap: break-word !important;    /* Rompe palabras si es necesario */
+    /* FUERZA EL SALTO DE LÍNEA Y EL TEXTO COMPLETO */
+    white-space: normal !important;   /* Prohibe los puntos suspensivos */
+    overflow: visible !important;     /* Asegura que nada se esconda */
+    text-overflow: clip !important;   /* Elimina el efecto de corte */
+    text-align: left;
     
-    /* Tipografía alineada a la izquierda */
-    text-align: left !important;
+    /* Tipografía */
     font-size: 1.05rem;
-    font-weight: bold;
-    line-height: 1.4 !important;
+    font-weight: 700;
+    line-height: 1.3 !important;      /* Ajuste fino del interlineado */
+    
+    transition: background-color 0.2s;
 }
 
-/* COLORES POR CATEGORÍA */
+.btn:active {
+    filter: brightness(0.9);
+    transform: scale(0.99);
+}
+
+/* COLORES MENÚ PRINCIPAL */
 .tema-naranja { background-color: var(--naranja-f); border-color: var(--naranja-m); color: #852d00; }
 .tema-amarillo { background-color: var(--amarillo-f); border-color: var(--amarillo-m); color: #7a5d00; }
 .tema-verde { background-color: var(--verde-f); border-color: var(--verde-m); color: #1b4332; }
 .tema-rojo { background-color: var(--rojo-f); border-color: var(--rojo-m); color: #780000; }
 .tema-azul { background-color: var(--azul-f); border-color: var(--azul-m); color: #004b73; }
 
-/* COLORES POR SECCIÓN */
+/* COLORES SECCIONES ÍNDICE */
 .sec-intro { background-color: var(--naranja-f); border-color: var(--naranja-m); }
 .sec-1 { background-color: var(--verde-f); border-color: var(--verde-m); }
 .sec-2 { background-color: var(--violeta-f); border-color: var(--violeta-m); }
@@ -98,31 +108,36 @@ h1 {
 .sec-concl { background-color: var(--amarillo-f); border-color: var(--amarillo-m); }
 .sec-biblio { background-color: var(--morado-f); border-color: var(--morado-m); }
 
-/* JERARQUÍA */
+/* JERARQUÍA DE SUBAPARTADOS */
 .sub-nivel-1 { 
-    margin-left: 15px; 
-    width: calc(100% - 15px) !important; 
+    margin-left: 12px; 
+    width: calc(100% - 12px); 
+    font-size: 1rem;
     filter: brightness(1.02);
 }
 
 .sub-nivel-2 { 
-    margin-left: 30px; 
-    width: calc(100% - 30px) !important; 
+    margin-left: 24px; 
+    width: calc(100% - 24px); 
     background-color: #ffffff !important;
-    font-weight: normal;
-    border-style: dotted;
+    font-weight: 500;
+    font-size: 0.95rem;
+    border-style: dotted; /* Cambiado a puntos para que sea más ligero visualmente */
 }
 
+/* UTILIDADES */
 .hidden { display: none; }
 
 #btn-volver {
     width: 100%;
     margin: 30px 0;
-    padding: 20px;
-    background: #333;
+    padding: 18px;
+    background: #222;
     color: white;
     border: none;
     border-radius: 12px;
-    font-weight: bold;
+    font-weight: 800;
+    font-size: 1rem;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
