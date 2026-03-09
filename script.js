@@ -117,9 +117,7 @@ const datosTemario = [
             { t: "1.1. Concepto y características de la evaluación" },
             { t: "1.2. Planificación de la evaluación" },
             { t: "1.3. Documentos oficiales de evaluación" },
-            { t: "1.4. Evaluación de los procesos de enseñanza" },
-            { t: "1.5. Evaluación diagnóstica y evaluación del sistema educativo" },
-            { t: "1.6. Información a las familias" }
+            { t: "1.4. Vertientes Complementarias" },
         ]},
         { t: "2. Características, estrategias, técnicas e instrumentos de evaluación", c: "sec-2", sub: [
             { t: "2.1. Estrategias" },
