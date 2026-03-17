@@ -1,5 +1,6 @@
 const datosTemario = [
-    { id: 2, cat: 'tema-naranja', nombre: 'TEMA 2. <br><br> La concreción de los currículos en el marco del proyecto educativo del centro. <br><br> Programación docente para dar respuesta a las distintas necesidades del alumnado: principios pedagógicos que deben tenerse en cuenta, estrategias para su elaboración en el ciclo, curso y aula. <br><br> Coordinación docente', indice: [
+    { id: 2, cat: 'tema-naranja', nombre: 'TEMA 2. \n\nLa concreción de los currículos en el marco del proyecto educativo del centro. \n\nProgramación docente para dar respuesta a las distintas necesidades del alumnado: principios pedagógicos que deben tenerse en cuenta, estrategias para su elaboración en el ciclo, curso y aula. \n\nCoordinación docente', 
+     indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. La concreción de los currículos en el marco del proyecto educativo del centro", c: "sec-1", sub: [
             { t: "1.1. Definición de currículo y niveles de concreción curricular" },
