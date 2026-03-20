@@ -1,6 +1,5 @@
 const datosTemario = [
-    { id: 2, cat: 'tema-naranja', nombre: 'TEMA 2. \n\nLa concreción de los currículos en el marco del proyecto educativo del centro. \n\nProgramación docente para dar respuesta a las distintas necesidades del alumnado: principios pedagógicos que deben tenerse en cuenta, estrategias para su elaboración en el ciclo, curso y aula. \n\nCoordinación docente', 
-     indice: [
+    { id: 2, cat: 'tema-naranja', nombre: 'TEMA 2. LA CONCRECIÓN DEL CURRÍCULO', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. La concreción de los currículos en el marco del proyecto educativo del centro", c: "sec-1", sub: [
             { t: "1.1. Definición de currículo y niveles de concreción curricular" },
@@ -31,8 +30,7 @@ const datosTemario = [
             { t: "MEC (1992). Orientación y tutoría, Educación Infantil y Primaria. Madrid: Colección Cajas Rojas." }
         ]}
     ]},
-    { id: 3, cat: 'tema-naranja', nombre: 'TEMA 3. \n\nLa tutoría en la Educación Primaria.\n\nApoyo y orientación en el proceso de aprendizaje.\n\nColaboración con las familias.\n\nFunciones del tutor en relación con el equipo docente y otros profesionales.\n\nEl plan de acción tutorial. Propuestas de acción tutorial', 
-     indice: [
+    { id: 3, cat: 'tema-naranja', nombre: 'TEMA 3. LA TUTORÍA', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. La tutoría en la Educación Primaria", c: "sec-1", sub: [
             { t: "1.1. Orientación, tutoría y competencias clave para el aprendizaje permanente" },
@@ -79,8 +77,7 @@ const datosTemario = [
             { t: "Mora, F. (2013). Neuroeducación: solo se puede aprender aquello que se ama. Madrid: Alianza Editorial." }
         ]}
     ]},
-    { id: 4, cat: 'tema-naranja', nombre: 'TEMA 4. \n\nLa atención a la diversidad del alumnado. Principios y estrategias.\n\nMedidas organizativas, curriculares y didácticas.\n\nAlumnado con necesidad específica de apoyo educativo.\n\nMedidas educativas específicas.',
-    indice: [
+    { id: 4, cat: 'tema-naranja', nombre: 'TEMA 4. LA ATENCIÓN A LA DIVERSIDAD', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. La atención a la diversidad del alumnado", c: "sec-1", sub: [
             { t: "1.1. Factores de la diversidad" },
@@ -114,8 +111,7 @@ const datosTemario = [
             { t: "Palacios, J., Marchesi, A. y Coll, C. (2014). Desarrollo psicológico y educación I. Psicología evolutiva. Madrid: Alianza Editorial." }
         ]}
     ]},
-    { id: 5, cat: 'tema-naranja', nombre: 'TEMA 5. \n\nLa evaluación de los procesos de aprendizaje del alumnado de Educación Primaria.\n\nCaracterísticas, estrategias, técnicas e instrumentos de evaluación.\n\nPromoción y planes específicos de refuerzo', 
-    indice: [
+    { id: 5, cat: 'tema-naranja', nombre: 'TEMA 5. LA EVALUACIÓN', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. La evaluación de los procesos de aprendizaje del alumnado de Educación Primaria", c: "sec-1", sub: [
             { t: "1.1. Concepto y características de la evaluación" },
@@ -140,7 +136,7 @@ const datosTemario = [
             { t: "Polo, I. (2014). Evaluación, promoción y titulación. Madrid: Wolters Kluwer." }
         ]}
     ]},
-    { id: 6, cat: 'tema-amarillo', nombre: 'TEMA 6. \n\nLas tecnologías de la información y la comunicación.\n\nIntervención educativa para su uso y aplicación en las diferentes áreas de conocimiento', indice: [
+    { id: 6, cat: 'tema-amarillo', nombre: 'TEMA 6. LAS TIC', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. Las tecnologías de la información y la comunicación", c: "sec-1", sub: [
             { t: "1.1. Impacto social y educativo de las TIC", sub: [
@@ -173,8 +169,7 @@ const datosTemario = [
             { t: "Mishra, P. & Koehler, M. J. (2006). Technological Pedagogical Content Knowledge: A framework for teacher knowledge. Teachers College Record." }
         ]}
     ]},
-    { id: 7, cat: 'tema-verde', nombre: 'TEMA 7. \n\nEl área de Conocimiento del medio natural, social y cultural en la Educación Primaria: enfoque, características y propuestas de intervención educativa.\n\nContribución del área al desarrollo de las competencias básicas.\n\nObjetivos, contenidos y criterios de evaluación: aspectos más relevantes.\n\nRelación con otras áreas del currículo',
-    indice: [
+    { id: 7, cat: 'tema-verde', nombre: 'TEMA 7. CONOCIMIENTO DEL MEDIO', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. El área de Conocimiento del medio natural, social y cultural en la Educación Primaria: enfoque, características y propuestas de intervención educativa", c: "sec-1", sub: [
             { t: "1.1. Enfoque y características de las Ciencias de la Naturaleza y las Ciencias Sociales", sub: [
@@ -198,8 +193,7 @@ const datosTemario = [
             { t: "Zabala, A. (1999). Enfoque globalizador y pensamiento complejo: una respuesta para la comprensión e intervención en la realidad. Barcelona: Graó." }
         ]}
     ]},
-    { id: 8, cat: 'tema-verde', nombre: 'TEMA 8. \n\nConstrucción de la noción de tiempo histórico en la Educación Primaria.\n\nÁmbitos de estudio de procesos y hechos históricos.\n\nEl aprendizaje de las grandes etapas históricas de la humanidad.\n\nUtilización de documentos: orales, escritos y restos materiales.\n\nIntervención educativa', 
-    indice: [
+    { id: 8, cat: 'tema-verde', nombre: 'TEMA 8. EL TIEMPO HISTÓRICO', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. Construcción de la noción de tiempo histórico en la Educación Primaria", c: "sec-1", sub: [
             { t: "1.1. Tiempo social, tiempo cronológico y tiempo histórico" },
@@ -239,8 +233,7 @@ const datosTemario = [
             { t: "Trepat, C. y Comes, P. (1998). El tiempo y el espacio en la didáctica de las Ciencias Sociales. Barcelona: Graó." }
         ]}
     ]},
-    { id: 9, cat: 'tema-verde', nombre: 'TEMA 9. \n\nEl entorno y su conservación.\n\nRelaciones entre los elementos de los ecosistemas, factores de deterioro y regeneración.\n\nCapacidad de los seres humanos para actuar sobre la naturaleza.\n\nIntervención educativa', 
-    indice: [
+    { id: 9, cat: 'tema-verde', nombre: 'TEMA 9. EL ENTORNO Y SU CONSERVACIÓN', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. El entorno y su conservación", c: "sec-1" },
         { t: "2. Relaciones entre los elementos de los ecosistemas, factores de deterioro y regeneración", c: "sec-2", sub: [
@@ -261,8 +254,7 @@ const datosTemario = [
             { t: "Pujol, R.M. (2003). Didáctica de las ciencias en la educación primaria. Madrid: Síntesis." }
         ]}
     ]},
-    { id: 10, cat: 'tema-verde', nombre: 'TEMA 10. \n\nEl aprendizaje de los fenómenos físicos y los cambios químicos.\n\nPlanificación y realización de experiencias para el estudio de propiedades, características y comportamiento de la materia y la energía',
-    indice: [
+    { id: 10, cat: 'tema-verde', nombre: 'TEMA 10. FENÓMENOS FÍSICOS Y CAMBIOS QUÍMICOS', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. Las ciencias de la naturaleza desde un enfoque competencial", c: "sec-1" },
         { t: "2. El aprendizaje de los fenómenos físicos y los cambios químicos", c: "sec-2", sub: [
@@ -291,8 +283,7 @@ const datosTemario = [
             { t: "Vos, P. y Verdork, A. (1996). The Particulate Nature of Matter (en The atomic model as a tool for learning)." }
         ]}
     ]},
-    { id: 14, cat: 'tema-rojo', nombre: 'TEMA 14. \n\nEl área de Lengua castellana y Literatura en la Educación Primaria: enfoque, características y propuestas de intervención educativa.\n\nContribución del área al desarrollo de las competencias básicas.\n\nObjetivos, saberes y criterios de evaluación:aspectos más relevantes.\n\nDesarrollo de la competencia comunicativa en otras áreas del currículo', 
-    indice: [
+    { id: 14, cat: 'tema-rojo', nombre: 'TEMA 14. LENGUA Y LITERATURA', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. El área de Lengua castellana y Literatura en Educación Primaria: enfoque, características y propuestas de intervención educativa", c: "sec-1", sub: [
             { t: "1.1. Enfoque" },
@@ -317,8 +308,7 @@ const datosTemario = [
             { t: "Mendoza Fillola, A. (2003). Didáctica de la Lengua y la Literatura. Madrid: Pearson Educación." }
         ]}
     ]},
-    { id: 15, cat: 'tema-rojo', nombre: 'TEMA 15. \n\nLa intervención educativa en la reflexión sistemática sobre el lenguaje en la Educación Primaria en relación con las condiciones de uso: el contexto comunicativo, los ámbitos de uso y el texto.\n\nLa adquisición de la lectura y la escritura',
-    indice: [
+    { id: 15, cat: 'tema-rojo', nombre: 'TEMA 15. LA INTERVENCIÓN EDUCATIVA SOBRE EL LENGUAJE', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. La intervención educativa en la reflexión sistemática sobre el lenguaje en la Educación Primaria en relación con las condiciones de uso: el contexto comunicativo, los ámbitos de uso y el texto", c: "sec-1", sub: [
             { t: "1.1. La intervención educativa: Del uso a la reflexión" },
@@ -341,8 +331,7 @@ const datosTemario = [
             { t: "Ferreiro, E. y Teberosky, A. (1979). Los sistemas de escritura en el desarrollo del niño. Madrid: Siglo XXI." }
         ]}
     ]},
-    { id: 16, cat: 'tema-rojo', nombre: 'TEMA 16. \n\nLa educación literaria en el contexto escolar.\n\nManifestaciones literarias más importantes aplicadas a la Educación Primaria.\n\nTécnicas y estrategias de utilización de la literatura infantil y juvenil.\n\nLa biblioteca escolar y la biblioteca de aula como recursos didácticos en la educación literaria', 
-    indice: [
+    { id: 16, cat: 'tema-rojo', nombre: 'TEMA 16. LA EDUCACIÓN LITERARIA', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. La educación literaria en el contexto escolar", c: "sec-1", sub: [
             { t: "1.1. La literatura infantil y juvenil" },
@@ -362,26 +351,22 @@ const datosTemario = [
         ]},
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
-            { t: "Teresa Colomer (2005) - Andar entre libros: la lectura literaria en la escuela" },
-            { t: "Ana Garralón (2001) - Historia portátil de la literatura infantil" },
-            { t: "José Antonio Camacho Espinosa (2014) - La biblioteca escolar: un espacio para leer, escribir y aprender" }
+            { t: "Chambers, A. (2007). Dime: Los niños, la lectura y la conversación. México: Fondo de Cultura Económica." },
+            { t: "Colomer, T. (2005). Andar entre libros: la lectura literaria en la escuela. México: Fondo de Cultura Económica." },
+            { t: "Mendoza Fillola, A. (2004). La educación literaria: bases para la formación de la competencia lectoliteraria. Málaga: Aljibe." }
         ]}
     ]},
-    { id: 17, cat: 'tema-rojo', nombre: 'TEMA 17. \n\nProceso de adquisición y desarrollo del lenguaje en la Educación Primaria: comprensión y expresión oral, elementos no lingüísticos que acompañan a las comunicación oral.\n\nEstrategias de intervención educativa', 
-    indice: [
+    { id: 17, cat: 'tema-rojo', nombre: 'TEMA 17. ADQUISICIÓN Y DESARROLLO DEL LENGUAJE', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. Proceso de adquisición y desarrollo del lenguaje en la Educación Primaria: comprensión y expresión oral, elementos no lingüísticos que acompañan a la comunicación oral", c: "sec-1", sub: [
-            { t: "1.1. Bases Legales" },
-            { t: "1.2. Proceso de adquisición y desarrollo del lenguaje en Educación Primaria" }, sub: [
-                { t: "1.2.1. Etapas evolutivas en la adquisición del lenguaje" },
-                { t: "1.2.2. Identificación de las alteraciones del lenguaje mas frecuente en Educación Primaria" }
-            ]}
+            { t: "1.1. Bases Teóricas: Del Innatismo a la Neuroeducación" },
+            { t: "1.2. Etapas Evolutivas y Desarrollo de Componentes" },
             { t: "1.3. Desarrollo de la comprensión y expresión oral" },
-            { t: "1.4. Elementos no lingüísticos que acompañan a la comunicación oral" },
+            { t: "1.4. Elementos no lingüísticos: La Comunicación Total" },
             { t: "1.5. Dificultades y Alteraciones del Lenguaje (Enfoque Inclusivo)" }
         ]},
         { t: "2. Estrategias de intervención educativa", c: "sec-2", sub: [
-            { t: "2.1. Principios de intervención educativa para la adquisición y desarrollo del lenguaje oral" },
+            { t: "2.1. Principios Metodológicos: Del Saber al Saber Hacer" },
             { t: "2.2. Técnicas específicas para el desarrollo del lenguaje oral" },
             { t: "2.3. Tipos de actividades para trabajar la expresión y comprensión oral" }
         ]},
@@ -392,8 +377,7 @@ const datosTemario = [
             { t: "Mora, F. (2013). Neuroeducación: solo se puede aprender aquello que se ama. Madrid: Alianza Editorial." }
         ]}
     ]},
-    { id: 18, cat: 'tema-rojo', nombre: 'TEMA 18. \n\nDesarrollo y características del proceso lector en la Educación Primaria.\n\nTécnicas y estrategias de comprensión lectora en diferentes situaciones de comunicación y con diferentes tipos de textos.\n\nLa lectura: planes de fomento y estrategias de intervención educativa',
-    indice: [
+    { id: 18, cat: 'tema-rojo', nombre: 'TEMA 18. EL PROCESO LECTOR', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. Desarrollo y características del proceso lector en la Educación Primaria", c: "sec-1", sub: [
             { t: "1.1. Bases del procesamiento Lector: La teoría de la doble vía" },
@@ -417,8 +401,7 @@ const datosTemario = [
             { t: "Solé, I. (1998). Estrategias de lectura. Barcelona: Graó." }
         ]}
     ]},
-    { id: 19, cat: 'tema-rojo', nombre: 'TEMA 19. \n\nDesarrollo de la expresión escrita en la Educación Primaria.\n\nMétodos y estrategias de aprendizaje.\n\nComposición de diferentes textos escritos.\n\nUtilización de las tecnologías de la información y la comunicación.\n\nEstrategias de intervención educativa', 
-    indice: [
+    { id: 19, cat: 'tema-rojo', nombre: 'TEMA 19. LA EXPRESIÓN ESCRITA', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. Desarrollo de la expresión escrita en la Educación Primaria", c: "sec-1", sub: [
             { t: "1.1. Etapas del Desarrollo: Del trazo al texto" },
@@ -441,8 +424,7 @@ const datosTemario = [
             { t: "Rodari, G. (1973). Gramática de la fantasía." }
         ]}
     ]},
-    { id: 20, cat: 'tema-azul', nombre: 'TEMA 20. \n\nEl área de Matemáticas en la Educación Primaria: enfoque, características y propuestas de intervención educativa.\n\nContribución al desarrollo de las competencias básicas.\n\nObjetivos, contenidos y criterios de evaluación: aspectos más relevantes.\n\nRelación con otras áreas del currículo',
-    indice: [
+    { id: 20, cat: 'tema-azul', nombre: 'TEMA 20. EL ÁREA DE MATEMÁTICAS', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. El área de Matemáticas en la Educación Primaria: enfoque, características y propuestas de intervención educativa", c: "sec-1", sub: [
             { t: "1.1. Breve reseña histórica" },
@@ -465,8 +447,7 @@ const datosTemario = [
             { t: "NCTM (National Council of Teachers of Mathematics). (2000). Principios y estándares para la educación matemática. Sevilla: SAEM Thales." }
         ]}
     ]},
-    { id: 21, cat: 'tema-azul', nombre: 'TEMA 21. \n\nResolución de problemas.\n\nDiferentes clases y métodos de resolución.\n\nPlanificación, gestión de los recursos, representación, interpretación y valoración de los resultados.\n\nEstrategias de intervención educativa', 
-    indice: [
+    { id: 21, cat: 'tema-azul', nombre: 'TEMA 21. RESOLUCIÓN DE PROBLEMAS', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. Resolución de problemas", c: "sec-1", sub: [
             { t: "1.1. La resolución de problemas desde un enfoque competencial" },
@@ -496,8 +477,7 @@ const datosTemario = [
             { t: "Pólya, G. (1992 [orig. 1945]). Cómo plantear y resolver problemas. México: Trillas." }
         ]}
     ]},
-    { id: 22, cat: 'tema-azul', nombre: 'TEMA 22. \n\nEl aprendizaje de los números y el cálculo numérico.\n\nNúmeros naturales, enteros, fraccionarios y decimales.\n\nSistemas de numeración. Relación entre los números. Operaciones de cálculo y procedimientos del mismo (cálculo escrito, mental, estimación y calculadora).\n\nIntervención educativa',
-    indice: [
+    { id: 22, cat: 'tema-azul', nombre: 'TEMA 22. LOS NÚMEROS Y EL CÁLCULO NUMÉRICO', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. El aprendizaje de los números y el cálculo numérico", c: "sec-1", sub: [
             { t: "1.1. Los números y el cálculo desde un enfoque competencial" },
@@ -533,8 +513,7 @@ const datosTemario = [
             { t: "Piaget, J. (1975). La génesis del número en el niño. Buenos Aires: Guadalupe." }
         ]}
     ]},
-    { id: 23, cat: 'tema-azul', nombre: 'TEMA 23. \n\nLas magnitudes y su medida.\n\nUnidades e instrumentos de medida.\n\nEstimación y aproximación en las mediciones.\n\nRecursos didácticos e intervención educativa',
-    indice: [
+    { id: 23, cat: 'tema-azul', nombre: 'TEMA 23. LAS MAGNITUDES Y SU MEDIDA', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. Las magnitudes y su medida", c: "sec-1", sub: [
             { t: "1.1. Conceptos básicos: magnitud, cantidad y medir" },
@@ -564,8 +543,7 @@ const datosTemario = [
             { t: "Segovia, I. y Rico, L. (Coords.) (2011). Matemáticas para maestros de Educación Primaria. Madrid: Ediciones Pirámide." }
         ]}
     ]},
-    { id: 24, cat: 'tema-azul', nombre: 'TEMA 24. \n\nEvolución de la percepción espacial en la Educación Primaria.\n\nElementos, formas y relaciones geométricas en el entorno: clasificación y representación.\n\nIntervención educativa', 
-    indice: [
+    { id: 24, cat: 'tema-azul', nombre: 'TEMA 24. LA PERCEPCIÓN ESPACIAL', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. Evolución de la percepción espacial en la Educación Primaria", c: "sec-1", sub: [
             { t: "1.1. Concepto de percepción espacial y espacio" },
@@ -598,8 +576,7 @@ const datosTemario = [
             { t: "Roldán, T. L. y Cabrera, C. R. (2008). Concepción didáctica para la enseñanza y el aprendizaje de la geometría con un enfoque dinámico. Editorial Universitaria." }
         ]}
     ]},
-    { id: 25, cat: 'tema-azul', nombre: 'TEMA 25. \n\nRecogida, organización y representación de la información.\n\nTablas de datos,\n\nTipos de gráficos.\n\nAplicaciones en las distintas áreas y en la interpretación de datos.\n\nUtilización de las tecnologías de la información y la comunicación para el tratamiento de datos', 
-    indice: [
+    { id: 25, cat: 'tema-azul', nombre: 'TEMA 25. RECOGIDA, ORGANIZACIÓN Y REPRESENTACIÓN DE LA INFORMACIÓN', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. Recogida, organización y representación de la información", c: "sec-1", sub: [
             { t: "1.1. Estadística: concepto, tipos, aplicaciones y objetivos" },
