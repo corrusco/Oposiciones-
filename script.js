@@ -362,23 +362,26 @@ const datosTemario = [
         ]},
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
-            { t: "Chambers, A. (2007). Dime: Los niños, la lectura y la conversación. México: Fondo de Cultura Económica." },
-            { t: "Colomer, T. (2005). Andar entre libros: la lectura literaria en la escuela. México: Fondo de Cultura Económica." },
-            { t: "Mendoza Fillola, A. (2004). La educación literaria: bases para la formación de la competencia lectoliteraria. Málaga: Aljibe." }
+            { t: "Teresa Colomer (2005) - Andar entre libros: la lectura literaria en la escuela" },
+            { t: "Ana Garralón (2001) - Historia portátil de la literatura infantil" },
+            { t: "José Antonio Camacho Espinosa (2014) - La biblioteca escolar: un espacio para leer, escribir y aprender" }
         ]}
     ]},
     { id: 17, cat: 'tema-rojo', nombre: 'TEMA 17. \n\nProceso de adquisición y desarrollo del lenguaje en la Educación Primaria: comprensión y expresión oral, elementos no lingüísticos que acompañan a las comunicación oral.\n\nEstrategias de intervención educativa', 
     indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. Proceso de adquisición y desarrollo del lenguaje en la Educación Primaria: comprensión y expresión oral, elementos no lingüísticos que acompañan a la comunicación oral", c: "sec-1", sub: [
-            { t: "1.1. Bases Teóricas: Del Innatismo a la Neuroeducación" },
-            { t: "1.2. Etapas Evolutivas y Desarrollo de Componentes" },
+            { t: "1.1. Bases Legales" },
+            { t: "1.2. Proceso de adquisición y desarrollo del lenguaje en Educación Primaria" }, sub: [
+                { t: "1.2.1. Etapas evolutivas en la adquisición del lenguaje" },
+                { t: "1.2.2. Identificación de las alteraciones del lenguaje mas frecuente en Educación Primaria" }
+            ]}
             { t: "1.3. Desarrollo de la comprensión y expresión oral" },
-            { t: "1.4. Elementos no lingüísticos: La Comunicación Total" },
+            { t: "1.4. Elementos no lingüísticos que acompañan a la comunicación oral" },
             { t: "1.5. Dificultades y Alteraciones del Lenguaje (Enfoque Inclusivo)" }
         ]},
         { t: "2. Estrategias de intervención educativa", c: "sec-2", sub: [
-            { t: "2.1. Principios Metodológicos: Del Saber al Saber Hacer" },
+            { t: "2.1. Principios de intervención educativa para la adquisición y desarrollo del lenguaje oral" },
             { t: "2.2. Técnicas específicas para el desarrollo del lenguaje oral" },
             { t: "2.3. Tipos de actividades para trabajar la expresión y comprensión oral" }
         ]},
