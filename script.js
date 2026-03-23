@@ -769,7 +769,7 @@ const datosTemario = [
         }
     ]
 }
-;
+];
 
 // LÓGICA DE LA APP
 function inicializarMenu() {
