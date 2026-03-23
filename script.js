@@ -367,14 +367,14 @@ const datosTemario = [
             { t: "José Antonio Camacho Espinosa (2014) - La biblioteca escolar: un espacio para leer, escribir y aprender" }
         ]}
     ]},
-    { id: 17, cat: 'tema-rojo', nombre: 'TEMA 17. \n\nProceso de adquisición y desarrollo del lenguaje en la Educación Primaria: comprensión y expresión oral, elementos no lingüísticos que acompañan a las comunicación oral.\n\nEstrategias de intervención educativa', 
+   { id: 17, cat: 'tema-rojo', nombre: 'TEMA 17. \n\nProceso de adquisición y desarrollo del lenguaje en la Educación Primaria: comprensión y expresión oral, elementos no lingüísticos que acompañan a las comunicación oral.\n\nEstrategias de intervención educativa', 
     indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. Proceso de adquisición y desarrollo del lenguaje en la Educación Primaria: comprensión y expresión oral, elementos no lingüísticos que acompañan a la comunicación oral", c: "sec-1", sub: [
             { t: "1.1. Bases legales" },
             { t: "1.2. Proceso de adquisición y desarrollo del lenguaje en Educación",  sub: [
                 { t: "1.2.1. Etapas evolutivas en la adquisición del lenguaje" },
-                { t: "1.2.2. Identificación de las alteraciones del lenguaje mas frecuentes en Educación Primaria" }
+                { t: "1.2.2. Identificación de las alteraciones del lenguaje más frecuentes en Educación Primaria" } // Corregida tilde
             ] },
             { t: "1.3. Desarrollo de la comprensión y expresión oral" },
             { t: "1.4. Elementos no lingüísticos que acompañan a la comunicación oral" }
@@ -386,49 +386,49 @@ const datosTemario = [
         ]},
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
-            { t: "1. Lev Vygotsky (1934) – Pensamiento y lenguaje" },
-            { t: "Antonio Juárez y Marc Monfort (2018) – El niño que habla" },
-            { t: "Daniel Cassany, Marta Luna y Gloria Sanz (2016) – Enseñar lengua" }
+            { t: "Vygotsky, L. (1934). Pensamiento y lenguaje." },
+            { t: "Juárez, A. y Monfort, M. (2018). El niño que habla." },
+            { t: "Cassany, D., Luna, M. y Sanz, G. (2016). Enseñar lengua." }
         ]}
     ]},
     { id: 18, cat: 'tema-rojo', nombre: 'TEMA 18. \n\nDesarrollo y características del proceso lector en la Educación Primaria.\n\nTécnicas y estrategias de comprensión lectora en diferentes situaciones de comunicación y con diferentes tipos de textos.\n\nLa lectura: planes de fomento y estrategias de intervención educativa',
     indice: [
         { t: "Introducción", c: "sec-intro" },
-    { 
-    t: "1. Desarrollo y características del proceso lector en la Educación Primaria", 
-    c: "sec-1", 
-    sub: [
-        { t: "1.1. La lectura en el currículo de Educación Primaria" },
-        { t: "1.2. Concepto de lectura" },
-        { t: "1.3. Características y etapas del desarrollo lector" },
         { 
-            t: "1.4. Métodos de enseñanza de la lectura", 
+            t: "1. Desarrollo y características del proceso lector en la Educación Primaria", 
+            c: "sec-1", 
             sub: [
-                { t: "1.4.1. Métodos sintéticos" },
-                { t: "1.4.2. Métodos analíticos o globales" },
-                { t: "1.4.3. Métodos mixtos" }
-            ] 
-        },
-        { t: "1.5. Dificultades específicas en el aprendizaje de la lectura" }
-    ]
-}
+                { t: "1.1. La lectura en el currículo de Educación Primaria" },
+                { t: "1.2. Concepto de lectura" },
+                { t: "1.3. Características y etapas del desarrollo lector" },
+                { 
+                    t: "1.4. Métodos de enseñanza de la lectura", 
+                    sub: [
+                        { t: "1.4.1. Métodos sintéticos" },
+                        { t: "1.4.2. Métodos analíticos o globales" },
+                        { t: "1.4.3. Métodos mixtos" }
+                    ] 
+                },
+                { t: "1.5. Dificultades específicas en el aprendizaje de la lectura" }
+            ]
+        }, // <--- AQUÍ FALTABA ESTA COMA
         { t: "2. Técnicas y estrategias de comprensión lectora en diferentes situaciones de comunicación y con diferentes tipos de textos", c: "sec-2", sub: [
             { t: "2.1. Situaciones de comunicación" },
             { t: "2.2. Tipologías textuales" },
             { t: "2.3. Técnicas y estrategias en los diferentes cursos." }
         ]},
         { t: "3. La lectura: planes de fomento y estrategias de intervención educativa", c: "sec-3", sub: [
-            { t: "3.1.  Planes de fomento de la lectura" },
+            { t: "3.1. Planes de fomento de la lectura" },
             { t: "3.2. Participación de la familia en el plan de fomento de la lectura" },
             { t: "3.3. Estrategias de intervención educativa" }
         ]},
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
-            { t: "1. Isabel Solé (1992) – Estrategias de lectura" },
-            { t: "2. Fernando Cuetos (2008) – Psicología de la lectura" },
-            { t: "3. Jean-Michel Adam (1992) – Los textos: tipos y prototipos" }
+            { t: "Solé, I. (1992). Estrategias de lectura." },
+            { t: "Cuetos, F. (2008). Psicología de la lectura." },
+            { t: "Adam, J. M. (1992). Los textos: tipos y prototipos." }
         ]}
-    ]},
+    ]}
     { id: 19, cat: 'tema-rojo', nombre: 'TEMA 19. \n\nDesarrollo de la expresión escrita en la Educación Primaria.\n\nMétodos y estrategias de aprendizaje.\n\nComposición de diferentes textos escritos.\n\nUtilización de las tecnologías de la información y la comunicación.\n\nEstrategias de intervención educativa', 
     indice: [
         { t: "Introducción", c: "sec-intro" },
