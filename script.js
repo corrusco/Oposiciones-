@@ -332,7 +332,8 @@ const datosTemario = [
         { t: "2. Adquisición de la lectura y la escritura", c: "sec-2", sub: [
             { t: "2.1. Adquisición de la lectura: Procesos y Normativa" },
             { t: "2.2. Adquisición de la escritura" },
-            { t: "2.3. Factores intervinientes y beneficios del dominio lectoescritor" }
+            { t: "2.3. Factores que intervienen en el proceso de la lectoescritura" },
+             { t: "2.4. Beneficios que nos aporta la lectoescritura" }
         ]},
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
@@ -386,60 +387,111 @@ const datosTemario = [
         ]},
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
-            { t: "1. Lev Vygotsky (1934) – Pensamiento y lenguaje" },
+            { t: "Lev Vygotsky (1934) – Pensamiento y lenguaje" },
             { t: "Antonio Juárez y Marc Monfort (2018) – El niño que habla" },
             { t: "Daniel Cassany, Marta Luna y Gloria Sanz (2016) – Enseñar lengua" }
         ]}
     ]},
-    { id: 18, cat: 'tema-rojo', nombre: 'TEMA 18. \n\nDesarrollo y características del proceso lector en la Educación Primaria.\n\nTécnicas y estrategias de comprensión lectora en diferentes situaciones de comunicación y con diferentes tipos de textos.\n\nLa lectura: planes de fomento y estrategias de intervención educativa',
+   { 
+    id: 18, 
+    cat: 'tema-rojo', 
+    nombre: 'TEMA 18. \n\nDesarrollo y características del proceso lector en la Educación Primaria.\n\nTécnicas y estrategias de comprensión lectora en diferentes situaciones de comunicación y con diferentes tipos de textos.\n\nLa lectura: planes de fomento y estrategias de intervención educativa',
     indice: [
         { t: "Introducción", c: "sec-intro" },
-        { t: "1. Desarrollo y características del proceso lector en la Educación Primaria", c: "sec-1", sub: [
-            { t: "1.1. Bases del procesamiento Lector: La teoría de la doble vía" },
-            { t: "1.2. Etapas del Desarrollo Lector: Modelo de Uta Frith" },
-            { t: "1.3. Enfoque Metodológico: Del debate al equilibrio" },
-            { t: "1.4. Dificultades Específicas (DEA) y Respuesta Riojana" }
-        ]},
-        { t: "2. Técnicas y estrategias de comprensión lectora en diferentes situaciones de comunicación y con diferentes tipos de textos", c: "sec-2", sub: [
-            { t: "2.1. Tipologías Textuales y Multimodales" },
-            { t: "2.2. Estrategias Cognitivas de Comprensión" }
-        ]},
-        { t: "3. La lectura: planes de fomento y estrategias de intervención educativa", c: "sec-3", sub: [
-            { t: "3.1. El Plan Lector de Centro: Un compromiso transversal" },
-            { t: "3.2. La Biblioteca Escolar como Centro de Recursos (CREA)" },
-            { t: "3.3. El papel de la Familia: El primer modelo lector" }
-        ]},
+        { 
+            t: "1. Desarrollo y características del proceso lector en la Educación Primaria", 
+            c: "sec-1", 
+            sub: [
+                { t: "1.1. La lectura en el currículo de Educación Primaria" },
+                { t: "1.2. Concepto de lectura" },
+                { t: "1.3. Características y etapas del desarrollo lector" },
+                { 
+                    t: "1.4. Métodos de enseñanza de la lectura", 
+                    sub: [
+                        { t: "1.4.1. Métodos sintéticos" },
+                        { t: "1.4.2. Métodos analíticos o globales" },
+                        { t: "1.4.3. Métodos mixtos" }
+                    ] 
+                },
+                { t: "1.5. Dificultades específicas en el aprendizaje de la lectura" }
+            ]
+        },
+        { 
+            t: "2. Técnicas y estrategias de comprensión lectora en diferentes situaciones de comunicación y con diferentes tipos de textos", 
+            c: "sec-2", 
+            sub: [
+                { t: "2.1. Situaciones de comunicación" },
+                { t: "2.2. Tipologías textuales" },
+                { 
+                    t: "2.3. Técnicas y estrategias en los diferentes cursos", 
+                    sub: [
+                        { t: "2.3.1. Primer ciclo" },
+                        { t: "2.3.2. Segundo ciclo" },
+                        { t: "2.3.3. Tercer ciclo" }
+                    ] 
+                }
+            ]
+        },
+        { 
+            t: "3. La lectura: planes de fomento y estrategias de intervención educativa", 
+            c: "sec-3", 
+            sub: [
+                { t: "3.1. Planes de fomento de la lectura" },
+                { t: "3.2. Participación de la familia en el plan de fomento de la lectura" },
+                { t: "3.3. Estrategias de intervención educativa" }
+            ]
+        },
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio", sub: [
-            { t: "Cassany, D. (2006). Tras las líneas: sobre la lectura contemporánea. Barcelona: Anagrama." },
-            { t: "Dehaene, S. (2014). El cerebro lector: últimas noticias de las neurociencias sobre la lectura, la enseñanza, el aprendizaje y la dislexia. Madrid: Siglo XXI." },
-            { t: "Solé, I. (1998). Estrategias de lectura. Barcelona: Graó." }
-        ]}
-    ]},
-    { id: 19, cat: 'tema-rojo', nombre: 'TEMA 19. \n\nDesarrollo de la expresión escrita en la Educación Primaria.\n\nMétodos y estrategias de aprendizaje.\n\nComposición de diferentes textos escritos.\n\nUtilización de las tecnologías de la información y la comunicación.\n\nEstrategias de intervención educativa', 
+        { 
+            t: "Bibliografía", 
+            c: "sec-biblio", 
+            sub: [
+                { t: "1. Isabel Solé (1992) – Estrategias de lectura" },
+                { t: "2. Fernando Cuetos (2008) – Psicología de la lectura" },
+                { t: "3. Jean-Michel Adam (1992) – Los textos: tipos y prototipos" }
+            ]
+        }
+    ]
+}
+   { 
+    id: 19, 
+    cat: 'tema-rojo', 
+    nombre: 'TEMA 19. \n\nDesarrollo de la expresión escrita en la Educación Primaria.\n\nMétodos y estrategias de aprendizaje.\n\nComposición de diferentes textos escritos.\n\nUtilización de las tecnologías de la información y la comunicación.\n\nEstrategias de intervención educativa', 
     indice: [
         { t: "Introducción", c: "sec-intro" },
-        { t: "1. Desarrollo de la expresión escrita en la Educación Primaria", c: "sec-1", sub: [
-            { t: "1.1. Etapas del Desarrollo: Del trazo al texto" },
-            { t: "1.2. El Proceso Cognitivo de Escritura (Flower y Hayes)" },
-            { t: "1.3. Dificultades específicas: Disgrafía y Disortografía" }
-        ]},
-        { t: "2. Métodos y estrategias de aprendizaje", c: "sec-2", sub: [
-            { t: "2.1. Enfoques Metodológicos" },
-            { t: "2.2. La Enseñanza de la Ortografía (Competencia Específica 9)" }
-        ]},
-        { t: "3. Composición de textos y uso de las TIC", c: "sec-3", sub: [
-            { t: "3.1. Tipologías Textuales Dominantes (Modelo J.M. Adam)" },
-            { t: "3.2. Escritura Digital y Multimodal" }
-        ]},
-        { t: "4. Estrategias de intervención educativa", c: "sec-4" },
+        { 
+            t: "1. Desarrollo de la expresión escrita en la Educación Primaria", 
+            c: "sec-1", 
+            sub: [
+                { t: "1.1. La expresión escrita en el currículum de Educación Primaria" },
+                { t: "1.2. Concepto de expresión escrita" },
+                { t: "1.3. Dificultades específicas en el aprendizaje de la escritura" }
+            ]
+        },
+        { 
+            t: "2. Métodos y estrategias de aprendizaje", 
+            c: "sec-2", 
+            sub: [
+                { t: "2.1. Principios básicos" },
+                { t: "2.2. Etapas en el desarrollo y aprendizaje de la escritura" },
+                { t: "2.3. Procesos de composición escrita" }
+            ]
+        },
+        { t: "3. Composición de diferentes textos escritos", c: "sec-3" },
+        { t: "4. Utilización de las tecnologías de la información y la comunicación", c: "sec-4" },
+        { t: "5. Estrategias de intervención educativa", c: "sec-5" },
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio", sub: [
-            { t: "Cassany, D. (1995). La cocina de la escritura. Barcelona: Anagrama." },
-            { t: "Flower, L. & Hayes, J.R. (1981). A Cognitive Process Theory of Writing. College Composition and Communication." },
-            { t: "Rodari, G. (1973). Gramática de la fantasía." }
-        ]}
-    ]},
+        { 
+            t: "Bibliografía", 
+            c: "sec-biblio", 
+            sub: [
+                { t: "Cassany, D. (1995). La cocina de la escritura. Barcelona: Anagrama." },
+                { t: "Fernando Cuetos (2009) – Psicología de la escritura" },
+                { t: "Jean-Michel Adam (1992) – Los textos: tipos y prototipos" }
+            ]
+        }
+    ]
+}
     { id: 20, cat: 'tema-azul', nombre: 'TEMA 20. \n\nEl área de Matemáticas en la Educación Primaria: enfoque, características y propuestas de intervención educativa.\n\nContribución al desarrollo de las competencias básicas.\n\nObjetivos, contenidos y criterios de evaluación: aspectos más relevantes.\n\nRelación con otras áreas del currículo',
     indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -461,7 +513,6 @@ const datosTemario = [
             { t: "Chamorro, M. C. (2003). Didáctica de las Matemáticas para Primaria. Madrid: Pearson Educación." },
             { t: "Godino, J. D. y Batanero, C. (2004). Didáctica de las matemáticas para maestros. Granada: Universidad de Granada." },
             { t: "Piaget, J. (1975). La génesis del número en el niño. Guadalupe." },
-            { t: "NCTM (National Council of Teachers of Mathematics). (2000). Principios y estándares para la educación matemática. Sevilla: SAEM Thales." }
         ]}
     ]},
     { id: 21, cat: 'tema-azul', nombre: 'TEMA 21. \n\nResolución de problemas.\n\nDiferentes clases y métodos de resolución.\n\nPlanificación, gestión de los recursos, representación, interpretación y valoración de los resultados.\n\nEstrategias de intervención educativa', 
@@ -490,8 +541,7 @@ const datosTemario = [
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
             { t: "Blanco Nieto, L. J. (1993). Una clasificación de problemas matemáticos. Épsilon: Revista de la Sociedad Andaluza de Educación Matemática 'Thales'." },
-            { t: "Fernández Bravo, J. A. (2014). La resolución de problemas matemáticos: creatividad y razonamiento en la mente de los niños. Madrid: Grupo Mayéutica." },
-            { t: "NCTM (2000). Principios y estándares para la educación matemática. Sevilla: SAEM Thales." },
+            { t: "• Piaget, J. (1975). La génesis del número en el niño. Guadalupe." },
             { t: "Pólya, G. (1992 [orig. 1945]). Cómo plantear y resolver problemas. México: Trillas." }
         ]}
     ]},
@@ -504,8 +554,10 @@ const datosTemario = [
             { t: "1.3. El aprendizaje del número y el cálculo numérico" }
         ]},
         { t: "2. El número y los sistemas de numeración", c: "sec-2", sub: [
-            { t: "2.1. Concepto y Tipología de Sistemas" },
-            { t: "2.2. Clasificación de los números en Educación Primaria" }
+            { t: "2.1. Números naturales" },
+            { t: "2.2. Números enteros" },
+            { t: "2.3. Números reales" },
+             { t: "2.4.  Números romanos" }
         ]},
         { t: "3. Relación entre los números. Las operaciones de cálculo", c: "sec-3", sub: [
             { t: "3.1. Adición y sustracción" },
@@ -525,44 +577,80 @@ const datosTemario = [
         ]},
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Piaget, J. (1975). La génesis del número en el niño. Buenos Aires: Guadalupe." },
             { t: "Alsina, Á. (2004). Desarrollo de competencias matemáticas con recursos lúdico-manipulativos. Madrid: Narcea." },
-            { t: "Bruner, J. S. (1966). Hacia una teoría de la instrucción. México: UTEHA." },
-            { t: "Giménez, J. y Girondo, L. (1993). Cálculo en la escuela. Barcelona: Graó." },
-            { t: "Ortiz, M. y Ortega, T. (2009). Cálculo mental. Valladolid: Tecnigraf." },
-            { t: "Piaget, J. (1975). La génesis del número en el niño. Buenos Aires: Guadalupe." }
+            { t: "Ortiz, M. y Ortega, T. (2009). Cálculo mental. Valladolid: Tecnigraf." }
         ]}
     ]},
-    { id: 23, cat: 'tema-azul', nombre: 'TEMA 23. \n\nLas magnitudes y su medida.\n\nUnidades e instrumentos de medida.\n\nEstimación y aproximación en las mediciones.\n\nRecursos didácticos e intervención educativa',
+   { 
+    id: 23, 
+    cat: 'tema-azul', 
+    nombre: 'TEMA 23. \n\nLas magnitudes y su medida.\n\nUnidades e instrumentos de medida.\n\nEstimación y aproximación en las mediciones.\n\nRecursos didácticos e intervención educativa',
     indice: [
         { t: "Introducción", c: "sec-intro" },
-        { t: "1. Las magnitudes y su medida", c: "sec-1", sub: [
-            { t: "1.1. Conceptos básicos: magnitud, cantidad y medir" },
-            { t: "1.2. La práctica de la medición" },
-            { t: "1.3. Evolución histórica: De lo antropométrico a lo universal" }
-        ]},
-        { t: "2. Unidades e instrumentos de medida", c: "sec-2", sub: [
-            { t: "2.1. Sistema métrico decimal" },
-            { t: "2.2. El Sistema Monetario (Contexto Transversal)" },
-            { t: "2.3. Sistemas no decimales: El sexagesimal" },
-            { t: "2.4. Instrumentos de medida" }
-        ]},
-        { t: "3. Estimación y aproximación en las mediciones", c: "sec-3", sub: [
-            { t: "3.1. Concepto y valor didáctico" },
-            { t: "3.2. Estrategias de estimación" }
-        ]},
-        { t: "4. Recursos didácticos e intervención educativa", c: "sec-4", sub: [
-            { t: "4.1. Metodología específica y principios" },
-            { t: "4.2. Recursos didácticos" },
-            { t: "4.3. Atención al alumnado con necesidad específica de apoyo educativo" }
-        ]},
+        { 
+            t: "1. Las magnitudes y su medida", 
+            c: "sec-1", 
+            sub: [
+                { 
+                    t: "1.1. Conceptos básicos: magnitud, cantidad y medir", 
+                    sub: [
+                        { t: "1.1.1. Magnitud" },
+                        { t: "1.1.2. Cantidad" },
+                        { t: "1.1.3. Medir" }
+                    ] 
+                },
+                { t: "1.2. La práctica de la medición" }
+            ]
+        },
+        { 
+            t: "2. Unidades e instrumentos de medida", 
+            c: "sec-2", 
+            sub: [
+                { 
+                    t: "2.1. Sistema métrico decimal", 
+                    sub: [
+                        { t: "2.1.1. Medidas de longitud" },
+                        { t: "2.1.2. Medidas de capacidad" },
+                        { t: "2.1.3. Medidas de masa" },
+                        { t: "2.1.4. Medidas de superficie" },
+                        { t: "2.1.5. Medidas de volumen" },
+                        { t: "2.1.6. Equivalencias fundamentales entre unidades de volumen, capacidad y masa" },
+                        { t: "2.1.7. Medidas monetarias" }
+                    ] 
+                },
+                { 
+                    t: "2.2. Sistema métrico no decimal. Medidas sexagesimales", 
+                    sub: [
+                        { t: "2.2.1. Medidas de tiempo" },
+                        { t: "2.2.2. Medida de la amplitud de los ángulos" }
+                    ] 
+                },
+                { t: "2.3. Instrumentos de medida" }
+            ]
+        },
+        { t: "3. Estimación y aproximación en las mediciones", c: "sec-3" },
+        { 
+            t: "4. Recursos didácticos e intervención educativa", 
+            c: "sec-4", 
+            sub: [
+                { t: "4.1. Metodología específica y principios" },
+                { t: "4.2. Recursos didácticos" },
+                { t: "4.3. Atención al alumnado con necesidad específica de apoyo educativo" }
+            ]
+        },
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio", sub: [
-            { t: "Alsina, Á. (2019). Itinerarios didácticos para la enseñanza de las matemáticas (6-12 años). Barcelona: Graó." },
-            { t: "Chamorro, M. C. (Coord.) (2003). Didáctica de las Matemáticas para Primaria. Madrid: Pearson Educación." },
-            { t: "Godino, J. D., Batanero, C. y Roa, R. (2004). Medida de magnitudes y su didáctica para maestros. Granada: Proyecto Edumat-Maestros." },
-            { t: "Segovia, I. y Rico, L. (Coords.) (2011). Matemáticas para maestros de Educación Primaria. Madrid: Ediciones Pirámide." }
-        ]}
-    ]},
+        { 
+            t: "Bibliografía", 
+            c: "sec-biblio", 
+            sub: [
+                { t: "• Godino, J. D., Batanero, C. y Roa, R. (2004). Medida de magnitudes y su didáctica para maestros. Universidad de Granada." },
+                { t: "• Piaget, J. (1975). La génesis del número en el niño. Guadalupe." },
+                { t: "• Lobachevski, N. (Cita de autoridad)." }
+            ]
+        }
+    ]
+}
     { id: 24, cat: 'tema-azul', nombre: 'TEMA 24. \n\nEvolución de la percepción espacial en la Educación Primaria.\n\nElementos, formas y relaciones geométricas en el entorno: clasificación y representación.\n\nIntervención educativa', 
     indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -584,55 +672,104 @@ const datosTemario = [
             { t: "2.4. Representación geométrica y coordenadas" }
         ]},
         { t: "3. Intervención educativa", c: "sec-3", sub: [
-            { t: "3.1. Metodología y principios pedagógicos" },
-            { t: "3.2. Recursos y materiales" },
-            { t: "3.3. Atención a la diversidad (DUA y NEAE)" }
+            { t: "3.1. Recursos" },
+            { t: "3.2.  Dificultades" }
         ]},
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
             { t: "Castañer, M. y Camerino, O. (2004). Didáctica de la Educación Física: una perspectiva crítica y transversal. Madrid: Biblioteca Nueva." },
             { t: "Corberán, R. M. (1989). Didáctica de la geometría: el modelo Van Hiele. Valencia: Universidad de Valencia." },
-            { t: "Godino, J. D. y Ruiz, F. (2002). Geometría y su didáctica para maestros. Granada: Universidad de Granada." },
             { t: "Piaget, J. e Inhelder, B. (1948). La representación del espacio en el niño. Madrid: Morata." },
-            { t: "Roldán, T. L. y Cabrera, C. R. (2008). Concepción didáctica para la enseñanza y el aprendizaje de la geometría con un enfoque dinámico. Editorial Universitaria." }
         ]}
     ]},
-    { id: 25, cat: 'tema-azul', nombre: 'TEMA 25. \n\nRecogida, organización y representación de la información.\n\nTablas de datos,\n\nTipos de gráficos.\n\nAplicaciones en las distintas áreas y en la interpretación de datos.\n\nUtilización de las tecnologías de la información y la comunicación para el tratamiento de datos', 
+    { 
+    id: 25, 
+    cat: 'tema-azul', 
+    nombre: 'TEMA 25. \n\nRecogida, organización y representación de la información.\n\nTablas de datos.\n\nTipos de gráficos.\n\nAplicaciones en las distintas áreas y en la interpretación de datos.\n\nUtilización de las tecnologías de la información y la comunicación para el tratamiento de datos', 
     indice: [
         { t: "Introducción", c: "sec-intro" },
-        { t: "1. Recogida, organización y representación de la información", c: "sec-1", sub: [
-            { t: "1.1. Estadística: concepto, tipos, aplicaciones y objetivos" },
-            { t: "1.2. Conceptos estadísticos básicos" },
-            { t: "1.3. Sistemas de recogida y organización de datos" }
-        ]},
-        { t: "2. Tablas y mecanismos básicos de tratamiento de datos", c: "sec-2", sub: [
-            { t: "2.1. Marcas de conteo" },
-            { t: "2.2. Tablas de frecuencias" },
-            { t: "2.3. Tablas de contingencias" },
-            { t: "2.4. Mecanismos básicos de tratamiento de datos" }
-        ]},
-        { t: "3. Tipos de gráficos", c: "sec-3", sub: [
-            { t: "3.1. Gráfico de barras" },
-            { t: "3.2. Gráfico de sectores" },
-            { t: "3.3. Gráfico de líneas" },
-            { t: "3.4. Pictograma" },
-            { t: "3.5. Cartograma" },
-            { t: "3.6. Gráfico de dispersión" }
-        ]},
-        { t: "4. Aplicaciones en las distintas áreas y en la interpretación de datos", c: "sec-4", sub: [
-            { t: "4.1. Aplicaciones en las distintas áreas" },
-            { t: "4.2. Principios pedagógicos para la interpretación de datos" }
-        ]},
+        { 
+            t: "1. Recogida, organización y representación de la información", 
+            c: "sec-1", 
+            sub: [
+                { t: "1.1. Estadística: concepto, tipos, aplicaciones y objetivos" },
+                { 
+                    t: "1.2. Conceptos estadísticos básicos", 
+                    sub: [
+                        { t: "1.2.1. Población y muestra" },
+                        { t: "1.2.2. Caracteres cuantitativos y cualitativos" },
+                        { t: "1.2.3. Variables estadísticas" },
+                        { t: "1.2.4. Frecuencias" }
+                    ] 
+                },
+                { t: "1.3. Sistemas de recogida y organización de datos" }
+            ]
+        },
+        { 
+            t: "2. Tablas y mecanismos básicos de tratamiento de datos", 
+            c: "sec-2", 
+            sub: [
+                { t: "2.1. Marcas de conteo" },
+                { 
+                    t: "2.2. Tablas de frecuencias", 
+                    sub: [
+                        { t: "2.2.1. Caracteres cualitativos" },
+                        { t: "2.2.2. Caracteres cuantitativos discretos" },
+                        { t: "2.2.3. Caracteres cuantitativos continuos" }
+                    ] 
+                },
+                { t: "2.3. Tablas de contingencias" },
+                { 
+                    t: "2.4. Mecanismos básicos de tratamiento de datos", 
+                    sub: [
+                        { t: "2.4.1. Media aritmética" },
+                        { t: "2.4.2. Mediana" },
+                        { t: "2.4.3. Moda" },
+                        { t: "2.4.4. Rango" }
+                    ] 
+                }
+            ]
+        },
+        { 
+            t: "3. Tipos de gráficos", 
+            c: "sec-3", 
+            sub: [
+                { 
+                    t: "3.1. Gráfico de barras", 
+                    sub: [
+                        { t: "3.1.1. Histograma" },
+                        { t: "3.1.2. Pirámide de población" }
+                    ] 
+                },
+                { t: "3.2. Gráfico de sectores" },
+                { t: "3.3. Gráfico de líneas" },
+                { t: "3.4. Pictograma" },
+                { t: "3.5. Cartograma" },
+                { t: "3.6. Gráfico de dispersión" }
+            ]
+        },
+        { 
+            t: "4. Aplicaciones en las distintas áreas y en la interpretación de datos", 
+            c: "sec-4", 
+            sub: [
+                { t: "4.1. Aplicaciones en las distintas áreas" },
+                { t: "4.2. Principios pedagógicos para la interpretación de datos" }
+            ]
+        },
         { t: "5. Utilización de las tecnologías de la información y la comunicación para el tratamiento de datos", c: "sec-5" },
         { t: "Conclusión", c: "sec-concl" },
-        { t: "Bibliografía", c: "sec-biblio", sub: [
-            { t: "Godino, J. D. y Batanero, C. (2004). Estocástica (en Didáctica de las matemáticas para maestros). Granada: Universidad de Granada." },
-            { t: "Gorgas, J., Cardiel, N. y Zamorano, J. (2011). Estadística básica para estudiantes de ciencias. Madrid: Universidad Complutense." },
-            { t: "Mendenhall, W., Beaver, R. y Beaver, B. (2006). Introducción a la probabilidad y estadística. Cengage Learning." },
-            { t: "Watkins, J. C. (2016). An Introduction to the Science of Statistics. Arizona: University of Arizona." }
-        ]}
-    ]}
-];
+        { 
+            t: "Bibliografía", 
+            c: "sec-biblio", 
+            sub: [
+                { t: "Godino, J. D. y Batanero, C. (2004). Estocástica (en Didáctica de las matemáticas para maestros). Granada: Universidad de Granada." },
+                { t: "Gorgas, J., Cardiel, N. y Zamorano, J. (2011). Estadística básica para estudiantes de ciencias. Madrid: Universidad Complutense." },
+                { t: "Watkins, J. C. (2016). An Introduction to the Science of Statistics. Arizona: University of Arizona." }
+            ]
+        }
+    ]
+}
+;
 
 // LÓGICA DE LA APP
 function inicializarMenu() {
