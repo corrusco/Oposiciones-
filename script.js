@@ -394,50 +394,62 @@ const datosTemario = [
     { id: 18, cat: 'tema-rojo', nombre: 'TEMA 18. \n\nDesarrollo y características del proceso lector en la Educación Primaria.\n\nTécnicas y estrategias de comprensión lectora en diferentes situaciones de comunicación y con diferentes tipos de textos.\n\nLa lectura: planes de fomento y estrategias de intervención educativa',
     indice: [
         { t: "Introducción", c: "sec-intro" },
-        { t: "1. Desarrollo y características del proceso lector en la Educación Primaria", c: "sec-1", sub: [
-            { t: "1.1. Bases del procesamiento Lector: La teoría de la doble vía" },
-            { t: "1.2. Etapas del Desarrollo Lector: Modelo de Uta Frith" },
-            { t: "1.3. Enfoque Metodológico: Del debate al equilibrio" },
-            { t: "1.4. Dificultades Específicas (DEA) y Respuesta Riojana" }
-        ]},
+    { 
+    t: "1. Desarrollo y características del proceso lector en la Educación Primaria", 
+    c: "sec-1", 
+    sub: [
+        { t: "1.1. La lectura en el currículo de Educación Primaria" },
+        { t: "1.2. Concepto de lectura" },
+        { t: "1.3. Características y etapas del desarrollo lector" },
+        { 
+            t: "1.4. Métodos de enseñanza de la lectura", 
+            sub: [
+                { t: "1.4.1. Métodos sintéticos" },
+                { t: "1.4.2. Métodos analíticos o globales" },
+                { t: "1.4.3. Métodos mixtos" }
+            ] 
+        },
+        { t: "1.5. Dificultades específicas en el aprendizaje de la lectura" }
+    ]
+}
         { t: "2. Técnicas y estrategias de comprensión lectora en diferentes situaciones de comunicación y con diferentes tipos de textos", c: "sec-2", sub: [
-            { t: "2.1. Tipologías Textuales y Multimodales" },
-            { t: "2.2. Estrategias Cognitivas de Comprensión" }
+            { t: "2.1. Situaciones de comunicación" },
+            { t: "2.2. Tipologías textuales" },
+            { t: "2.3. Técnicas y estrategias en los diferentes cursos." }
         ]},
         { t: "3. La lectura: planes de fomento y estrategias de intervención educativa", c: "sec-3", sub: [
-            { t: "3.1. El Plan Lector de Centro: Un compromiso transversal" },
-            { t: "3.2. La Biblioteca Escolar como Centro de Recursos (CREA)" },
-            { t: "3.3. El papel de la Familia: El primer modelo lector" }
+            { t: "3.1.  Planes de fomento de la lectura" },
+            { t: "3.2. Participación de la familia en el plan de fomento de la lectura" },
+            { t: "3.3. Estrategias de intervención educativa" }
         ]},
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
-            { t: "Cassany, D. (2006). Tras las líneas: sobre la lectura contemporánea. Barcelona: Anagrama." },
-            { t: "Dehaene, S. (2014). El cerebro lector: últimas noticias de las neurociencias sobre la lectura, la enseñanza, el aprendizaje y la dislexia. Madrid: Siglo XXI." },
-            { t: "Solé, I. (1998). Estrategias de lectura. Barcelona: Graó." }
+            { t: "1. Isabel Solé (1992) – Estrategias de lectura" },
+            { t: "2. Fernando Cuetos (2008) – Psicología de la lectura" },
+            { t: "3. Jean-Michel Adam (1992) – Los textos: tipos y prototipos" }
         ]}
     ]},
     { id: 19, cat: 'tema-rojo', nombre: 'TEMA 19. \n\nDesarrollo de la expresión escrita en la Educación Primaria.\n\nMétodos y estrategias de aprendizaje.\n\nComposición de diferentes textos escritos.\n\nUtilización de las tecnologías de la información y la comunicación.\n\nEstrategias de intervención educativa', 
     indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. Desarrollo de la expresión escrita en la Educación Primaria", c: "sec-1", sub: [
-            { t: "1.1. Etapas del Desarrollo: Del trazo al texto" },
-            { t: "1.2. El Proceso Cognitivo de Escritura (Flower y Hayes)" },
-            { t: "1.3. Dificultades específicas: Disgrafía y Disortografía" }
+            { t: "1.1. La expresión escrita en el currículum de Educación Primaria" },
+            { t: "1.2. Concepto de expresión escrita" },
+            { t: "1.3. Dificultades específicas en el aprendizaje de la escritura" }
         ]},
         { t: "2. Métodos y estrategias de aprendizaje", c: "sec-2", sub: [
-            { t: "2.1. Enfoques Metodológicos" },
-            { t: "2.2. La Enseñanza de la Ortografía (Competencia Específica 9)" }
+            { t: "2.1. Principios básicos" },
+            { t: "2.2. Etapas en el desarrollo y aprendizaje de la escritura" },
+             { t: "2.3. Procesos de composición escrita" }
         ]},
-        { t: "3. Composición de textos y uso de las TIC", c: "sec-3", sub: [
-            { t: "3.1. Tipologías Textuales Dominantes (Modelo J.M. Adam)" },
-            { t: "3.2. Escritura Digital y Multimodal" }
-        ]},
-        { t: "4. Estrategias de intervención educativa", c: "sec-4" },
+        { t: "3. Composición de textos y uso de las TIC", c: "sec-3"},
+        { t: "4. Utilización de las tecnologías de la información y la comunicación", c: "sec-4" },
+         { t: "5. Estrategias de intervención educativa", c: "sec-5" },
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
-            { t: "Cassany, D. (1995). La cocina de la escritura. Barcelona: Anagrama." },
-            { t: "Flower, L. & Hayes, J.R. (1981). A Cognitive Process Theory of Writing. College Composition and Communication." },
-            { t: "Rodari, G. (1973). Gramática de la fantasía." }
+            { t: "Daniel Cassany (1993/2000) – Construir la escritura / La cocina de la escritura" },
+            { t: "Fernando Cuetos (2009) – Psicología de la escritura" },
+            { t: "Jean-Michel Adam (1992) – Los textos: tipos y prototipos" }
         ]}
     ]},
     { id: 20, cat: 'tema-azul', nombre: 'TEMA 20. \n\nEl área de Matemáticas en la Educación Primaria: enfoque, características y propuestas de intervención educativa.\n\nContribución al desarrollo de las competencias básicas.\n\nObjetivos, contenidos y criterios de evaluación: aspectos más relevantes.\n\nRelación con otras áreas del currículo',
@@ -489,9 +501,8 @@ const datosTemario = [
         ]},
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
-            { t: "Blanco Nieto, L. J. (1993). Una clasificación de problemas matemáticos. Épsilon: Revista de la Sociedad Andaluza de Educación Matemática 'Thales'." },
-            { t: "Fernández Bravo, J. A. (2014). La resolución de problemas matemáticos: creatividad y razonamiento en la mente de los niños. Madrid: Grupo Mayéutica." },
-            { t: "NCTM (2000). Principios y estándares para la educación matemática. Sevilla: SAEM Thales." },
+            { t: "• Blanco Nieto, L. J. (1993). Una clasificación de problemas matemáticos. Épsilon: Revista de la Sociedad Andaluza de Educación Matemática "Thales"." },
+            { t: "• Piaget, J. (1975). La génesis del número en el niño. Guadalupe." },
             { t: "Pólya, G. (1992 [orig. 1945]). Cómo plantear y resolver problemas. México: Trillas." }
         ]}
     ]},
