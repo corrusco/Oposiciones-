@@ -452,7 +452,7 @@ const datosTemario = [
             ]
         }
     ]
-}
+},
    { 
     id: 19, 
     cat: 'tema-rojo', 
@@ -491,7 +491,7 @@ const datosTemario = [
             ]
         }
     ]
-}
+},
     { id: 20, cat: 'tema-azul', nombre: 'TEMA 20. \n\nEl área de Matemáticas en la Educación Primaria: enfoque, características y propuestas de intervención educativa.\n\nContribución al desarrollo de las competencias básicas.\n\nObjetivos, contenidos y criterios de evaluación: aspectos más relevantes.\n\nRelación con otras áreas del currículo',
     indice: [
         { t: "Introducción", c: "sec-intro" },
@@ -650,7 +650,7 @@ const datosTemario = [
             ]
         }
     ]
-}
+},
     { id: 24, cat: 'tema-azul', nombre: 'TEMA 24. \n\nEvolución de la percepción espacial en la Educación Primaria.\n\nElementos, formas y relaciones geométricas en el entorno: clasificación y representación.\n\nIntervención educativa', 
     indice: [
         { t: "Introducción", c: "sec-intro" },
