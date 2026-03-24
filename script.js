@@ -10,12 +10,27 @@ const datosTemario = [
                 { t: "1.2.3. La PGA y la memoria final de curso" }
             ]}
         ]},
-        { t: "2. Programación docente para dar respuesta a las distintas necesidades del alumnado: principios pedagógicos que deben tenerse en cuenta, estrategias para su elaboración en el ciclo, curso y aula", c: "sec-2", sub: [
-            { t: "2.1. Programación didáctica, programación de aula, unidad de programación y situación de aprendizaje" },
-            { t: "2.2. Principios pedagógicos que deben tenerse en cuenta, estrategias para su elaboración en el ciclo, curso y aula", sub: [
-                { t: "2.2.1. Principios pedagógicos" },
-                { t: "2.2.2. Estrategias para su elaboración en el ciclo, curso y aula" }
-            ]}
+       { 
+  t: "2. Programación docente para dar respuesta a las distintas necesidades del alumnado: principios pedagógicos que deben tenerse en cuenta, estrategias para su elaboración en el ciclo, curso y aula", 
+  c: "sec-2", 
+  sub: [
+    { 
+      t: "2.1. Programación didáctica, programación de aula, unidad de programación y situación de aprendizaje",
+      sub: [
+        { t: "2.1.1. Apartados que deben integrar una programación didáctica" },
+        { t: "2.1.2. Apartados que debe integrar una programación de aula" },
+        { t: "2.1.3. Apartados que debe integrar una unidad didáctica" }
+      ]
+    },
+    { 
+      t: "2.2. Principios pedagógicos que deben tenerse en cuenta, estrategias para su elaboración en el ciclo, curso y aula", 
+      sub: [
+        { t: "2.2.1. Principios pedagógicos" },
+        { t: "2.2.2. Estrategias para su elaboración en el ciclo, curso y aula" }
+      ]
+    }
+  ]
+}
         ]},
         { t: "3. Coordinación docente", c: "sec-3", sub: [
             { t: "3.1. Equipos de ciclo" },
@@ -24,11 +39,9 @@ const datosTemario = [
         ]},
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
-            { t: "Alba Pastor, C. (2016). Diseño universal para el aprendizaje: educación para todos y prácticas de enseñanza inclusivas. Madrid: Morata." },
-            { t: "Anderson, L. y Krathwohl, D. (eds.) (2001). A Taxonomy for Learning, Teaching and Assessing. A Revision of Bloom’s Taxonomy of Educational Objectives. Nueva York: Longman." },
-            { t: "Bernal, J. L., Cano, J. y Lorenzo, J. (2014). Organización de los centros educativos. LOMCE y políticas neoliberales. Zaragoza: Mira Editores." },
-            { t: "Booth, T. y Ainscow, M. (2015). Guía para la educación inclusiva. Desarrollando el aprendizaje y la participación en los centros escolares. Madrid: Fuhem." },
-            { t: "MEC (1992). Orientación y tutoría, Educación Infantil y Primaria. Madrid: Colección Cajas Rojas." }
+            { t: "• Bernal, J. L., Cano, J. y Lorenzo, J. (2014). Organización de los centros educativos. LOMCE y políticas neoliberales. Mira Editores." },
+            { t: "• Alba Pastor, C. (Ed.). (2016). Diseño Universal para el Aprendizaje: Educación para todos y prácticas de enseñanza inclusivas. Morata." },
+            { t: "• Anderson, L. y Krathwohl, D. (Eds.). (2001). A Taxonomy for Learning, Teaching and Assessing. Longman." },
         ]}
     ]},
     { id: 3, cat: 'tema-naranja', nombre: 'TEMA 3. \n\nLa tutoría en la Educación Primaria.\n\nApoyo y orientación en el proceso de aprendizaje.\n\nColaboración con las familias.\n\nFunciones del tutor en relación con el equipo docente y otros profesionales.\n\nEl plan de acción tutorial. Propuestas de acción tutorial', 
