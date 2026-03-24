@@ -72,10 +72,9 @@ const datosTemario = [
         { t: "6. Propuestas de acción tutorial", c: "sec-6" },
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
-            { t: "Álvarez, M. y Bisquerra, R. (2018). Orientación educativa. Modelos, áreas, estrategias y recursos. Madrid: Wolters Kluwer." },
-            { t: "Bisquerra, R. (2012). Orientación, tutoría y educación emocional. Madrid: Síntesis." },
-            { t: "Elizondo, C. (2020). Hacia una escuela inclusiva: el diseño universal para el aprendizaje. Barcelona: Octaedro." },
-            { t: "Mora, F. (2013). Neuroeducación: solo se puede aprender aquello que se ama. Madrid: Alianza Editorial." }
+            { t: "Álvarez, M. y Bisquerra, R</b>. (2018). Orientación educativa. Modelos, áreas, estrategias y recursos. Madrid: Wolters Kluwer." },
+            { t: "Elizondo, C. (2020).</b> Hacia una escuela inclusiva: el diseño universal para el aprendizaje. Barcelona: Octaedro" },
+            { t: "Mora, F. </b>(2013). Neuroeducación: solo se puede aprender aquello que se ama. Madrid: Alianza Editorial" }
         ]}
     ]},
     { id: 4, cat: 'tema-naranja', nombre: 'TEMA 4. \n\nLa atención a la diversidad del alumnado. Principios y estrategias.\n\nMedidas organizativas, curriculares y didácticas.\n\nAlumnado con necesidad específica de apoyo educativo.\n\nMedidas educativas específicas.',
