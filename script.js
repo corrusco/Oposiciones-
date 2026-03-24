@@ -61,16 +61,9 @@ const datosTemario = [
         ]},
         { t: "3. Colaboración con las familias", c: "sec-3", sub: [
             { t: "3.1. Participación de las familias en el marco del PEC y del PAT" },
-            { t: "3.2. Funciones del tutor en relación con las familias", sub: [
-                { t: "3.2.1. Comunicación e información" },
-                { t: "3.2.2. Cooperación educativa" }
-            ]}
+            { t: "3.2. Funciones del tutor en relación con las familias"}
         ]},
-        { t: "4. Funciones del tutor en relación con el equipo docente y otros profesionales", c: "sec-4", sub: [
-            { t: "4.1. Coordinación horizontal (El día a día del equipo)" },
-            { t: "4.2. Planificación estratégica (Ciclo y CCP)" },
-            { t: "4.3. Colaboración específica (Orientación y programas)" }
-        ]},
+        { t: "4. Funciones del tutor en relación con el equipo docente y otros profesionales"},
         { t: "5. El plan de acción tutorial", c: "sec-5", sub: [
             { t: "5.1. El PAT en el marco del PEC" },
             { t: "5.2. Elaboración y concreción" },
