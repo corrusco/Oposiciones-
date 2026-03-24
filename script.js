@@ -91,8 +91,8 @@ const datosTemario = [
             { t: "2.1. Principios y estrategias desarrollados en la LOMLOE" },
             { t: "2.2. La atención a la diversidad en la concreción de los currículos" },
             { t: "2.3. Estrategias en el marco del proyecto educativo de centro", sub: [
-                { t: "2.3.1. El plan de acción tutorial" },
-                { t: "2.3.2. El plan de atención a la diversidad" }
+                { t: "2.3.1. El Plan de Acción tutorial" },
+                { t: "2.3.2. El Plan de Atención a las Diferencias Individuales" }
             ]}
         ]},
         { t: "3. Medidas ordinarias de inclusión educativa y atención a la diversidad", c: "sec-3", sub: [
