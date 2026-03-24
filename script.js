@@ -10,27 +10,20 @@ const datosTemario = [
                 { t: "1.2.3. La PGA y la memoria final de curso" }
             ]}
         ]},
-       { 
-  t: "2. Programación docente para dar respuesta a las distintas necesidades del alumnado: principios pedagógicos que deben tenerse en cuenta, estrategias para su elaboración en el ciclo, curso y aula", 
-  c: "sec-2", 
-  sub: [
-    { 
-      t: "2.1. Programación didáctica, programación de aula, unidad de programación y situación de aprendizaje",
+       { t: "2. Programación docente para dar respuesta a las distintas necesidades del alumnado: principios pedagógicos que deben tenerse en cuenta, estrategias para su elaboración en el ciclo, curso y aula", 
+  c: "sec-2", sub: [
+    { t: "2.1. Programación didáctica, programación de aula, unidad de programación y situación de aprendizaje",
       sub: [
         { t: "2.1.1. Apartados que deben integrar una programación didáctica" },
         { t: "2.1.2. Apartados que debe integrar una programación de aula" },
         { t: "2.1.3. Apartados que debe integrar una unidad didáctica" }
       ]
     },
-    { 
-      t: "2.2. Principios pedagógicos que deben tenerse en cuenta, estrategias para su elaboración en el ciclo, curso y aula", 
+    { t: "2.2. Principios pedagógicos que deben tenerse en cuenta, estrategias para su elaboración en el ciclo, curso y aula", 
       sub: [
         { t: "2.2.1. Principios pedagógicos" },
         { t: "2.2.2. Estrategias para su elaboración en el ciclo, curso y aula" }
-      ]
-    }
-  ]
-}
+  ]}
         ]},
         { t: "3. Coordinación docente", c: "sec-3", sub: [
             { t: "3.1. Equipos de ciclo" },
