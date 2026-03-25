@@ -119,7 +119,9 @@ const datosTemario = [
             { t: "1.1. Concepto y características de la evaluación" },
             { t: "1.2. Planificación de la evaluación" },
             { t: "1.3. Documentos oficiales de evaluación" },
-            { t: "1.4. Vertientes Complementarias" },
+            { t: "1.4. Evaluación de los procesos de enseñanza" },
+            { t: "1.5. Evaluación diagnóstica y evaluación del sistema educativo" },
+            { t: "1.6. Información a las familias" }
         ]},
         { t: "2. Características, estrategias, técnicas e instrumentos de evaluación", c: "sec-2", sub: [
             { t: "2.1. Estrategias" },
@@ -132,10 +134,9 @@ const datosTemario = [
         ]},
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
-            { t: "Alba Pastor, C. (Coord.) (2016). Diseño Universal para el Aprendizaje: Educación para todos y prácticas de enseñanza inclusivas. Madrid: Morata." },
-            { t: "Elizondo, C. (2016). Guía para elaborar un Proyecto Educativo de Centro desde un enfoque inclusivo. (Recurso en línea)." },
-            { t: "Guillén, J. (2017). Neuroeducación en el aula: De la teoría a la práctica. Amazon CreateSpace." },
-            { t: "Polo, I. (2014). Evaluación, promoción y titulación. Madrid: Wolters Kluwer." }
+            { t: "• Bernal, J. L., Cano, J. y Lorenzo, J. (2014). Organización de los centros educativos. Zaragoza: Mira Editores." },
+            { t: "• Polo, I. (2014). Evaluación, promoción y titulación. Madrid: Wolters Kluwer." },
+            { t: "• Elizondo, C. (2016). Guía para elaborar un Proyecto Educativo desde un enfoque inclusivo." }
         ]}
     ]},
     { id: 6, cat: 'tema-amarillo', nombre: 'TEMA 6. \n\nLas tecnologías de la información y la comunicación.\n\nIntervención educativa para su uso y aplicación en las diferentes áreas de conocimiento', indice: [
