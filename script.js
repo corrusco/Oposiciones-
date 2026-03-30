@@ -95,7 +95,7 @@ const datosTemario = [
                 { t: "2.3.2. El Plan de Atención a las Diferencias Individuales" }
             ]}
         ]},
-        { t: "3. Medidas ordinarias de inclusión educativa y atención a la diversidad", c: "sec-3", sub: [
+        { t: "3.  Medidas organizativas, curriculares y didácticas", c: "sec-3", sub: [
             { t: "3.1. Medidas organizativas" },
             { t: "3.2. Medidas metodológicas" },
             { t: "3.3. Medidas curriculares" },
