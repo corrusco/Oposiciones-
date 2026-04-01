@@ -4,7 +4,7 @@ const datosTemario = [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. La concreción de los currículos en el marco del proyecto educativo del centro", c: "sec-1", sub: [
             { t: "1.1. Definición de currículo y niveles de concreción curricular" },
-            { t: "1.2. El proyecto educativo de centro", sub: [
+            { t: "1.2. El proyecto educativo de centro (I)", sub: [
                 { t: "1.2.1. El PCE como concreción del currículo en el centro escolar" },
                 { t: "1.2.2. Elementos curriculares en la LOMLOE" },
                 { t: "1.2.3. La PGA y la memoria final de curso" }
@@ -12,7 +12,7 @@ const datosTemario = [
         ]},
        { t: "2. Programación docente para dar respuesta a las distintas necesidades del alumnado: principios pedagógicos que deben tenerse en cuenta, estrategias para su elaboración en el ciclo, curso y aula", 
   c: "sec-2", sub: [
-    { t: "2.1. Programación didáctica, programación de aula, unidad de programación y situación de aprendizaje",
+    { t: "2.1. Programación didáctica, programación de aula, unidad de programación y situación de aprendizaje (I)",
       sub: [
         { t: "2.1.1. Apartados que deben integrar una programación didáctica" },
         { t: "2.1.2. Apartados que debe integrar una programación de aula" },
@@ -25,7 +25,7 @@ const datosTemario = [
         { t: "2.2.2. Estrategias para su elaboración en el ciclo, curso y aula" }
   ]}
         ]},
-        { t: "3. Coordinación docente", c: "sec-3", sub: [
+        { t: "3. Coordinación docente (I)", c: "sec-3", sub: [
             { t: "3.1. Equipos de ciclo" },
             { t: "3.2. Comisión de coordinación pedagógica (CCP)" },
             { t: "3.3. La tutoría" }
@@ -43,7 +43,7 @@ const datosTemario = [
         { t: "1. La tutoría en la Educación Primaria", c: "sec-1", sub: [
             { t: "1.1. Orientación, tutoría y competencias clave para el aprendizaje permanente" },
             { t: "1.2. Orientación, tutoría y currículo" },
-            { t: "1.3. Orientación, acción tutorial y tutoría", sub: [
+            { t: "1.3. Orientación, acción tutorial y tutoría (I)", sub: [
                 { t: "1.3.1. Orientación educativa" },
                 { t: "1.3.2. Acción tutorial" },
                 { t: "1.3.3. Tutoría" }
@@ -64,7 +64,7 @@ const datosTemario = [
             { t: "3.2. Funciones del tutor en relación con las familias"}
         ]},
         { t: "4. Funciones del tutor en relación con el equipo docente y otros profesionales"},
-        { t: "5. El plan de acción tutorial", c: "sec-5", sub: [
+        { t: "5. El plan de acción tutorial (I)", c: "sec-5", sub: [
             { t: "5.1. El PAT en el marco del PEC" },
             { t: "5.2. Elaboración y concreción" },
             { t: "5.3. Elementos del PAT" }
@@ -90,12 +90,12 @@ const datosTemario = [
         { t: "2. Principios y estrategias", c: "sec-2", sub: [
             { t: "2.1. Principios y estrategias desarrollados en la LOMLOE" },
             { t: "2.2. La atención a la diversidad en la concreción de los currículos" },
-            { t: "2.3. Estrategias en el marco del proyecto educativo de centro", sub: [
+            { t: "2.3. Estrategias en el marco del proyecto educativo de centro (I)", sub: [
                 { t: "2.3.1. El Plan de Acción tutorial" },
                 { t: "2.3.2. El Plan de Atención a las Diferencias Individuales" }
             ]}
         ]},
-        { t: "3.  Medidas organizativas, curriculares y didácticas", c: "sec-3", sub: [
+        { t: "3.  Medidas organizativas, curriculares y didácticas (I)", c: "sec-3", sub: [
             { t: "3.1. Medidas organizativas" },
             { t: "3.2. Medidas metodológicas" },
             { t: "3.3. Medidas curriculares" },
@@ -106,10 +106,9 @@ const datosTemario = [
         { t: "5. Medidas educativas específicas y extraordinarias", c: "sec-5" },
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
-            { t: "Alba Pastor, C. (2016). Diseño Universal para el Aprendizaje: Educación para todos y prácticas de enseñanza inclusivas. Madrid: Morata." },
             { t: "Booth, T. y Ainscow, M. (2011). Guía para la educación inclusiva (Index for Inclusion). Madrid: Fuhem." },
             { t: "Includ-ED Consortium (coord.). (2011). Actuaciones de éxito en las escuelas europeas. Madrid: Ministerio de Educación." },
-            { t: "Palacios, J., Marchesi, A. y Coll, C. (2014). Desarrollo psicológico y educación I. Psicología evolutiva. Madrid: Alianza Editorial." }
+            { t: "Alba Pastor, C. (2016). Diseño Universal para el Aprendizaje: Educación para todos y prácticas de enseñanza inclusivas. Madrid: Morata." }
         ]}
     ]},
     { id: 5, cat: 'tema-naranja', nombre: 'TEMA 5. \n\nLa evaluación de los procesos de aprendizaje del alumnado de Educación Primaria.\n\nCaracterísticas, estrategias, técnicas e instrumentos de evaluación.\n\nPromoción y planes específicos de refuerzo', 
@@ -142,14 +141,14 @@ const datosTemario = [
     { id: 6, cat: 'tema-amarillo', nombre: 'TEMA 6. \n\nLas tecnologías de la información y la comunicación.\n\nIntervención educativa para su uso y aplicación en las diferentes áreas de conocimiento', indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. Las tecnologías de la información y la comunicación", c: "sec-1", sub: [
-            { t: "1.1. Impacto social y educativo de las TIC", sub: [
+            { t: "1.1. Impacto social y educativo de las TIC (I)", sub: [
                 { t: "1.1.1. Auge de la Web 2.0 y el uso de internet en los procesos de enseñanza-aprendizaje" },
                 { t: "1.1.2. De las TIC a las TAC y las TEP" }
             ]},
             { t: "1.2. Dificultades, riesgos y estrategias para su integración" },
             { t: "1.3. Competencia digital" }
         ]},
-        { t: "2. Intervención educativa para su uso y aplicación en las diferentes áreas de conocimiento", c: "sec-2", sub: [
+        { t: "2. Intervención educativa para su uso y aplicación en las diferentes áreas de conocimiento (I)", c: "sec-2", sub: [
             { t: "2.1. Ejemplos de modelos de integración de las tecnologías en el aula", sub: [
                 { t: "2.1.1. TPACK (Technological Pedagogical Content Knowledge)" },
                 { t: "2.1.2. SAMR (Sustitución, Aumentación, Modificación, Redefinición)" }
@@ -165,11 +164,10 @@ const datosTemario = [
         ]},
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
-            { t: "Alba Pastor, C. (2016). Diseño Universal para el Aprendizaje: Educación para todos y prácticas de enseñanza inclusivas. Madrid: Morata." },
             { t: "Barroso, J. y Cabero, J. (2015). Nuevos escenarios digitales. Madrid: Pirámide." },
-            { t: "Churches, A. (2009). Taxonomía de Bloom para la era digital. Eduteka." },
+            { t: "Mishra, P. & Koehler, M. J. (2006). Technological Pedagogical Content Knowledge: A framework for teacher knowledge. Teachers College Record." },
             { t: "Delors, J. (Coord.) (1996). La educación encierra un tesoro. Madrid: Santillana/UNESCO." },
-            { t: "Mishra, P. & Koehler, M. J. (2006). Technological Pedagogical Content Knowledge: A framework for teacher knowledge. Teachers College Record." }
+            { t: "Alba Pastor, C. (2016). Diseño Universal para el Aprendizaje: Educación para todos y prácticas de enseñanza inclusivas. Madrid: Morata." }
         ]}
     ]},
     { id: 7, cat: 'tema-verde', nombre: 'TEMA 7. \n\nEl área de Conocimiento del medio natural, social y cultural en la Educación Primaria: enfoque, características y propuestas de intervención educativa.\n\nContribución del área al desarrollo de las competencias básicas.\n\nObjetivos, contenidos y criterios de evaluación: aspectos más relevantes.\n\nRelación con otras áreas del currículo',
@@ -191,27 +189,26 @@ const datosTemario = [
         { t: "4. Relación con otras áreas del currículo", c: "sec-4" },
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Zabala, A. (1999). Enfoque globalizador y pensamiento complejo: una respuesta para la comprensión e intervención en la realidad. Barcelona: Graó." },
             { t: "Elizondo, C. (2020). Hacia una educación inclusiva. El Diseño Universal para el Aprendizaje. Barcelona: Octaedro." },
-            { t: "Gil-Pérez, D. y Vilches, A. (2005). Educación para la sostenibilidad. Barcelona: Octaedro." },
-            { t: "Pagès, J. y Santisteban, A. (2011). Didáctica del Conocimiento del Medio Social y Cultural en la Educación Primaria. Madrid: Síntesis." },
-            { t: "Zabala, A. (1999). Enfoque globalizador y pensamiento complejo: una respuesta para la comprensión e intervención en la realidad. Barcelona: Graó." }
+            { t: "Pagès, J. y Santisteban, A. (2011). Didáctica del Conocimiento del Medio Social y Cultural en la Educación Primaria. Madrid: Síntesis." }
         ]}
     ]},
     { id: 8, cat: 'tema-verde', nombre: 'TEMA 8. \n\nConstrucción de la noción de tiempo histórico en la Educación Primaria.\n\nÁmbitos de estudio de procesos y hechos históricos.\n\nEl aprendizaje de las grandes etapas históricas de la humanidad.\n\nUtilización de documentos: orales, escritos y restos materiales.\n\nIntervención educativa', 
     indice: [
         { t: "Introducción", c: "sec-intro" },
-        { t: "1. Construcción de la noción de tiempo histórico en la Educación Primaria", c: "sec-1", sub: [
+        { t: "1. Construcción de la noción de tiempo histórico en la Educación Primaria (I)", c: "sec-1", sub: [
             { t: "1.1. Tiempo social, tiempo cronológico y tiempo histórico" },
             { t: "1.2. Construcción de la noción de tiempo histórico" },
             { t: "1.3. Enseñar la noción de tiempo histórico en la escuela" }
         ]},
-        { t: "2. Ámbitos de estudio de los procesos y hechos históricos", c: "sec-2", sub: [
+        { t: "2. Ámbitos de estudio de los procesos y hechos históricos (I)", c: "sec-2", sub: [
             { t: "2.1. Ámbito social" },
             { t: "2.2. Ámbito económico" },
             { t: "2.3. Ámbito político" },
             { t: "2.4. Ámbito cultural" }
         ]},
-        { t: "3. El aprendizaje de las grandes etapas históricas de la humanidad", c: "sec-3", sub: [
+        { t: "3. El aprendizaje de las grandes etapas históricas de la humanidad (I)", c: "sec-3", sub: [
             { t: "3.1. La prehistoria", sub: [
                 { t: "3.1.1. La Edad de Piedra" },
                 { t: "3.1.2. La Edad de los Metales" }
@@ -223,7 +220,7 @@ const datosTemario = [
                 { t: "3.2.4. Edad Contemporánea" }
             ]}
         ]},
-        { t: "4. Utilización de documentos orales, escritos y restos materiales", c: "sec-4", sub: [
+        { t: "4. Utilización de documentos orales, escritos y restos materiales (I)", c: "sec-4", sub: [
             { t: "4.1. Fuentes primarias" },
             { t: "4.2. Fuentes secundarias" }
         ]},
@@ -233,50 +230,50 @@ const datosTemario = [
         ]},
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
+            { t: "Trepat, C. y Comes, P. (1998). El tiempo y el espacio en la didáctica de las Ciencias Sociales. Barcelona: Graó." },
             { t: "Cooper, H. (2002). Didáctica de la historia en la educación infantil y primaria. Madrid: Morata." },
-            { t: "Pagès, J. y Santisteban, A. (2011). Didáctica del Conocimiento del Medio Social y Cultural en la Educación Primaria. Madrid: Síntesis." },
-            { t: "Trepat, C. y Comes, P. (1998). El tiempo y el espacio en la didáctica de las Ciencias Sociales. Barcelona: Graó." }
+            { t: "Pagès, J. y Santisteban, A. (2011). Didáctica del Conocimiento del Medio Social y Cultural en la Educación Primaria. Madrid: Síntesis." }
         ]}
     ]},
     { id: 9, cat: 'tema-verde', nombre: 'TEMA 9. \n\nEl entorno y su conservación.\n\nRelaciones entre los elementos de los ecosistemas, factores de deterioro y regeneración.\n\nCapacidad de los seres humanos para actuar sobre la naturaleza.\n\nIntervención educativa', 
     indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. El entorno y su conservación", c: "sec-1" },
-        { t: "2. Relaciones entre los elementos de los ecosistemas, factores de deterioro y regeneración", c: "sec-2", sub: [
+        { t: "2. Relaciones entre los elementos de los ecosistemas, factores de deterioro y regeneración (I)", c: "sec-2", sub: [
             { t: "2.1. Concepto de ecosistema y elementos" },
             { t: "2.2. Clasificación de los ecosistemas" },
             { t: "2.3. Relación entre los elementos de los ecosistemas" },
             { t: "2.4. Factores de deterioro y regeneración" }
         ]},
-        { t: "3. Capacidad de los seres humanos para actuar sobre la naturaleza", c: "sec-3", sub: [
+        { t: "3. Capacidad de los seres humanos para actuar sobre la naturaleza (I)", c: "sec-3", sub: [
             { t: "3.1. Desarrollo sostenible" },
             { t: "3.2. Educación ambiental" }
         ]},
         { t: "4. Intervención educativa", c: "sec-4" },
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
-            { t: "Escobar, B. (2013). El trabajo con la educación ambiental en la escuela primaria." },
+            { t: "Pujol, R.M. (2003). Didáctica de las ciencias en la educación primaria. Madrid: Síntesis." },
             { t: "Margalef, R. (1998). Ecología. Barcelona: Editorial Planeta." },
-            { t: "Pujol, R.M. (2003). Didáctica de las ciencias en la educación primaria. Madrid: Síntesis." }
+            { t: "Escobar, B. (2013). El trabajo con la educación ambiental en la escuela primaria." }
         ]}
     ]},
     { id: 10, cat: 'tema-verde', nombre: 'TEMA 10. \n\nEl aprendizaje de los fenómenos físicos y los cambios químicos.\n\nPlanificación y realización de experiencias para el estudio de propiedades, características y comportamiento de la materia y la energía',
     indice: [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. Las ciencias de la naturaleza desde un enfoque competencial", c: "sec-1" },
-        { t: "2. El aprendizaje de los fenómenos físicos y los cambios químicos", c: "sec-2", sub: [
+        { t: "2. El aprendizaje de los fenómenos físicos y los cambios químicos (I)", c: "sec-2", sub: [
             { t: "2.1. Niveles para el aprendizaje de la ciencia en la escuela" },
             { t: "2.2. Evolución durante la Educación Primaria" }
         ]},
         { t: "3. Estudio de propiedades, características y comportamiento de la materia y la energía", c: "sec-3", sub: [
-            { t: "3.1. Estudio de propiedades, características y comportamiento de la materia", sub: [
+            { t: "3.1. Estudio de propiedades, características y comportamiento de la materia (I)", sub: [
                 { t: "3.1.1. Propiedades de la materia" },
                 { t: "3.1.2. Características de la materia" },
                 { t: "3.1.3. Comportamientos de la materia" }
             ]},
             { t: "3.2. Estudio de propiedades, características y comportamiento de la energía" }
         ]},
-        { t: "4. Planificación y realización de experiencias para el estudio de propiedades, características y comportamiento de la materia y energía", c: "sec-4", sub: [
+        { t: "4. Planificación y realización de experiencias para el estudio de propiedades, características y comportamiento de la materia y energía (I)", c: "sec-4", sub: [
             { t: "4.1. El alumno como científico" },
             { t: "4.2. El modelo de enseñanza por investigación" },
             { t: "4.3. El laboratorio escolar" },
@@ -285,7 +282,6 @@ const datosTemario = [
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
             { t: "Charpak, G. (2005). Manos a la obra. Las ciencias en la escuela primaria. Taller del Ciudadano." },
-            { t: "Prieto, T., Blanco, A. y González, F. (2000). La materia y los materiales. Madrid: Síntesis." },
             { t: "Sutton, C. (1992). Ideas sobre las ideas de los alumnos. Barcelona: Paidós." },
             { t: "Vos, P. y Verdork, A. (1996). The Particulate Nature of Matter (en The atomic model as a tool for learning)." }
         ]}
@@ -319,7 +315,7 @@ const datosTemario = [
     { id: 15, cat: 'tema-rojo', nombre: 'TEMA 15. \n\nLa intervención educativa en la reflexión sistemática sobre el lenguaje en la Educación Primaria en relación con las condiciones de uso: el contexto comunicativo, los ámbitos de uso y el texto.\n\nLa adquisición de la lectura y la escritura',
     indice: [
         { t: "Introducción", c: "sec-intro" },
-        { t: "1. La intervención educativa en la reflexión sistemática sobre el lenguaje en la Educación Primaria en relación con las condiciones de uso: el contexto comunicativo, los ámbitos de uso y el texto", c: "sec-1", sub: [
+        { t: "1. La intervención educativa en la reflexión sistemática sobre el lenguaje en la Educación Primaria en relación con las condiciones de uso: el contexto comunicativo, los ámbitos de uso y el texto (I)", c: "sec-1", sub: [
             { t: "1.1. La intervención educativa: Del uso a la reflexión" },
             { t: "1.2. El contexto comunicativo" },
             { t: "1.3. Los ámbitos de uso del lenguaje" },
@@ -328,7 +324,7 @@ const datosTemario = [
                 { t: "1.4.2. Tipos de textos y géneros discursivos" }
             ]}
         ]},
-        { t: "2. Adquisición de la lectura y la escritura", c: "sec-2", sub: [
+        { t: "2. Adquisición de la lectura y la escritura (I)", c: "sec-2", sub: [
             { t: "2.1. Adquisición de la lectura: Procesos y Normativa" },
             { t: "2.2. Adquisición de la escritura" },
             { t: "2.3. Factores que intervienen en el proceso de la lectoescritura" },
@@ -349,7 +345,7 @@ const datosTemario = [
             { t: "1.2. La literatura y el currículo en la Educación Primaria" },
             { t: "1.3. La literatura en el contexto escolar" }
         ]},
-        { t: "2. Manifestaciones literarias más importantes aplicadas a la Educación Primaria", c: "sec-2", sub: [
+        { t: "2. Manifestaciones literarias más importantes aplicadas a la Educación Primaria (I)", c: "sec-2", sub: [
             { t: "2.1. Poesía" },
             { t: "2.2. Géneros narrativos" },
             { t: "2.3. El género teatral" }
@@ -372,7 +368,7 @@ const datosTemario = [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. Proceso de adquisición y desarrollo del lenguaje en la Educación Primaria: comprensión y expresión oral, elementos no lingüísticos que acompañan a la comunicación oral", c: "sec-1", sub: [
             { t: "1.1. Bases legales" },
-            { t: "1.2. Proceso de adquisición y desarrollo del lenguaje en Educación",  sub: [
+            { t: "1.2. Proceso de adquisición y desarrollo del lenguaje en Educación (I)",  sub: [
                 { t: "1.2.1. Etapas evolutivas en la adquisición del lenguaje" },
                 { t: "1.2.2. Identificación de las alteraciones del lenguaje mas frecuentes en Educación Primaria" }
             ] },
@@ -432,7 +428,7 @@ const datosTemario = [
             ]
         },
         { 
-            t: "3. La lectura: planes de fomento y estrategias de intervención educativa", 
+            t: "3. La lectura: planes de fomento y estrategias de intervención educativa (I)", 
             c: "sec-3", 
             sub: [
                 { t: "3.1. Planes de fomento de la lectura" },
@@ -459,7 +455,7 @@ const datosTemario = [
     indice: [
         { t: "Introducción", c: "sec-intro" },
         { 
-            t: "1. Desarrollo de la expresión escrita en la Educación Primaria", 
+            t: "1. Desarrollo de la expresión escrita en la Educación Primaria (I)", 
             c: "sec-1", 
             sub: [
                 { t: "1.1. La expresión escrita en el currículum de Educación Primaria" },
@@ -468,7 +464,7 @@ const datosTemario = [
             ]
         },
         { 
-            t: "2. Métodos y estrategias de aprendizaje", 
+            t: "2. Métodos y estrategias de aprendizaje (I)", 
             c: "sec-2", 
             sub: [
                 { t: "2.1. Principios básicos" },
@@ -523,7 +519,7 @@ const datosTemario = [
             { t: "1.3. Resolución de problemas" },
             { t: "1.4. Principales dificultades en la resolución de problemas" }
         ]},
-        { t: "2. Diferentes clases y métodos de resolución", c: "sec-2", sub: [
+        { t: "2. Diferentes clases y métodos de resolución (I)", c: "sec-2", sub: [
             { t: "2.1. Clasificación de problemas" },
             { t: "2.2. Métodos de resolución de problemas" }
         ]},
@@ -540,7 +536,7 @@ const datosTemario = [
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
             { t: "Blanco Nieto, L. J. (1993). Una clasificación de problemas matemáticos. Épsilon: Revista de la Sociedad Andaluza de Educación Matemática 'Thales'." },
-            { t: "• Piaget, J. (1975). La génesis del número en el niño. Guadalupe." },
+            { t: "Piaget, J. (1975). La génesis del número en el niño. Guadalupe." },
             { t: "Pólya, G. (1992 [orig. 1945]). Cómo plantear y resolver problemas. México: Trillas." }
         ]}
     ]},
@@ -552,7 +548,7 @@ const datosTemario = [
             { t: "1.2. El aprendizaje del número y el cálculo a lo largo de la Educación Primaria" },
             { t: "1.3. El aprendizaje del número y el cálculo numérico" }
         ]},
-        { t: "2. El número y los sistemas de numeración", c: "sec-2", sub: [
+        { t: "2. El número y los sistemas de numeración (I)", c: "sec-2", sub: [
             { t: "2.1. Números naturales" },
             { t: "2.2. Números enteros" },
             { t: "2.3. Números reales" },
@@ -561,7 +557,7 @@ const datosTemario = [
         { t: "3. Relación entre los números. Las operaciones de cálculo", c: "sec-3", sub: [
             { t: "3.1. Adición y sustracción" },
             { t: "3.2. Multiplicación y división" },
-            { t: "3.3. Procedimientos de cálculo", sub: [
+            { t: "3.3. Procedimientos de cálculo (I)", sub: [
                 { t: "3.3.1. Cálculo escrito" },
                 { t: "3.3.2. Cálculo mental" },
                 { t: "3.3.3. Estimación y calculadora" }
@@ -569,7 +565,7 @@ const datosTemario = [
         ]},
         { t: "4. Intervención educativa", c: "sec-4", sub: [
             { t: "4.1. Pautas educativas para el aprendizaje del concepto de número y el cálculo" },
-            { t: "4.2. Recursos y actividades lúdicas y manipulativas", sub: [
+            { t: "4.2. Recursos y actividades lúdicas y manipulativas (I)", sub: [
                 { t: "4.2.1. Las regletas de colores" },
                 { t: "4.2.2. Actividades con el ábaco" }
             ]}
@@ -607,7 +603,7 @@ const datosTemario = [
             c: "sec-2", 
             sub: [
                 { 
-                    t: "2.1. Sistema métrico decimal", 
+                    t: "2.1. Sistema métrico decimal (I)", 
                     sub: [
                         { t: "2.1.1. Medidas de longitud" },
                         { t: "2.1.2. Medidas de capacidad" },
@@ -655,7 +651,7 @@ const datosTemario = [
         { t: "Introducción", c: "sec-intro" },
         { t: "1. Evolución de la percepción espacial en la Educación Primaria", c: "sec-1", sub: [
             { t: "1.1. Concepto de percepción espacial y espacio" },
-            { t: "1.2. Evolución de la percepción espacial", sub: [
+            { t: "1.2. Evolución de la percepción espacial (I)", sub: [
                 { t: "1.2.1. Jean Piaget" },
                 { t: "1.2.2. Van Hiele" }
             ]},
@@ -670,15 +666,15 @@ const datosTemario = [
             { t: "2.3. Transformaciones geométricas" },
             { t: "2.4. Representación geométrica y coordenadas" }
         ]},
-        { t: "3. Intervención educativa", c: "sec-3", sub: [
+        { t: "3. Intervención educativa (I)", c: "sec-3", sub: [
             { t: "3.1. Recursos" },
             { t: "3.2.  Dificultades" }
         ]},
         { t: "Conclusión", c: "sec-concl" },
         { t: "Bibliografía", c: "sec-biblio", sub: [
             { t: "Castañer, M. y Camerino, O. (2004). Didáctica de la Educación Física: una perspectiva crítica y transversal. Madrid: Biblioteca Nueva." },
-            { t: "Corberán, R. M. (1989). Didáctica de la geometría: el modelo Van Hiele. Valencia: Universidad de Valencia." },
             { t: "Piaget, J. e Inhelder, B. (1948). La representación del espacio en el niño. Madrid: Morata." },
+            { t: "Corberán, R. M. (1989). Didáctica de la geometría: el modelo Van Hiele. Valencia: Universidad de Valencia." }
         ]}
     ]},
     { 
@@ -705,12 +701,12 @@ const datosTemario = [
             ]
         },
         { 
-            t: "2. Tablas y mecanismos básicos de tratamiento de datos", 
+            t: "2. Tablas y mecanismos básicos de tratamiento de datos (I)", 
             c: "sec-2", 
             sub: [
                 { t: "2.1. Marcas de conteo" },
                 { 
-                    t: "2.2. Tablas de frecuencias", 
+                    t: "2.2. Tablas de frecuencias (I)", 
                     sub: [
                         { t: "2.2.1. Caracteres cualitativos" },
                         { t: "2.2.2. Caracteres cuantitativos discretos" },
@@ -719,7 +715,7 @@ const datosTemario = [
                 },
                 { t: "2.3. Tablas de contingencias" },
                 { 
-                    t: "2.4. Mecanismos básicos de tratamiento de datos", 
+                    t: "2.4. Mecanismos básicos de tratamiento de datos (I)", 
                     sub: [
                         { t: "2.4.1. Media aritmética" },
                         { t: "2.4.2. Mediana" },
@@ -730,11 +726,11 @@ const datosTemario = [
             ]
         },
         { 
-            t: "3. Tipos de gráficos", 
+            t: "3. Tipos de gráficos (I)", 
             c: "sec-3", 
             sub: [
                 { 
-                    t: "3.1. Gráfico de barras", 
+                    t: "3.1. Gráfico de barras (I)", 
                     sub: [
                         { t: "3.1.1. Histograma" },
                         { t: "3.1.2. Pirámide de población" }
@@ -762,8 +758,8 @@ const datosTemario = [
             c: "sec-biblio", 
             sub: [
                 { t: "Godino, J. D. y Batanero, C. (2004). Estocástica (en Didáctica de las matemáticas para maestros). Granada: Universidad de Granada." },
-                { t: "Gorgas, J., Cardiel, N. y Zamorano, J. (2011). Estadística básica para estudiantes de ciencias. Madrid: Universidad Complutense." },
-                { t: "Watkins, J. C. (2016). An Introduction to the Science of Statistics. Arizona: University of Arizona." }
+                { t: "Watkins, J. C. (2016). An Introduction to the Science of Statistics. Arizona: University of Arizona." },
+                { t: "Gorgas, J., Cardiel, N. y Zamorano, J. (2011). Estadística básica para estudiantes de ciencias. Madrid: Universidad Complutense." }
             ]
         }
     ]
